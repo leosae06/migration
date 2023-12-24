@@ -1,0 +1,10 @@
+				@font-face {
+					font-family: 'helvetic-regular';
+					src: url('/wordpress/wp-content/uploads/useanyfont/9699Helvetic-Regular.woff2') format('woff2'),
+						url('/wordpress/wp-content/uploads/useanyfont/9699Helvetic-Regular.woff') format('woff');
+					  font-display: auto;
+				}
+
+				.helvetic-regular{font-family: 'helvetic-regular' !important;}
+
+		

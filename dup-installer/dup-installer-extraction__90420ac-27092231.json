@@ -1,0 +1,53 @@
+{
+    "CL_-=_-=": "DUP_Extraction",
+    "zip_filetime": "current",
+    "archive_action": "donothing",
+    "archive_engine": "duparchive",
+    "extractonStart": 1703409215.983653,
+    "chunkStart": 1703409216.055903,
+    "root_path": "C:\/wamp64\/www\/migration\/",
+    "archive_path": "C:\/wamp64\/www\/migration\/exportationwp_90420ac87ebf5ac22707_20231027092231_archive.daf",
+    "ajax1_error_level": 32767,
+    "dawn_status": {
+        "CL_-=_-=": "stdClass",
+        "archive_offset": 95864276,
+        "archive_size": 104397726,
+        "failures": [],
+        "file_index": 8668,
+        "is_done": false,
+        "timestamp": 1703409222
+    },
+    "archive_offset": 0,
+    "do_chunking": false,
+    "chunkedExtractionCompleted": false,
+    "num_files": 0,
+    "sub_folder_archive": "",
+    "max_size_extract_at_a_time": 2096128,
+    "zip_arc_chunk_notice_no": -1,
+    "zip_arc_chunk_notice_change_last_time": 0,
+    "zip_arc_chunks_extract_rates": [],
+    "archive_items_count": 11220,
+    "filters": {
+        "CL_-=_-=": "Duplicator\\Installer\\Core\\Deploy\\Files\\Filters",
+        "files": [
+            "exportationwp_90420ac87ebf5ac22707_20231027092231_installer-backup.php"
+        ],
+        "dirsWithoutChilds": [],
+        "dirs": [
+            "dup-installer"
+        ]
+    },
+    "removeFilters": {
+        "CL_-=_-=": "Duplicator\\Installer\\Core\\Deploy\\Files\\Filters",
+        "files": [
+            "C:\/wamp64\/www\/migration\/exportationwp_90420ac87ebf5ac22707_20231027092231_installer-backup.php",
+            "C:\/wamp64\/www\/migration\/exportationwp_90420ac87ebf5ac22707_20231027092231_archive.daf",
+            "C:\/wamp64\/www\/migration\/installer.php",
+            "C:\/wamp64\/www\/migration\/dup-installer-bootlog__2d2c74a-27092231.txt"
+        ],
+        "dirsWithoutChilds": [],
+        "dirs": [
+            "C:\/wamp64\/www\/migration\/dup-installer"
+        ]
+    }
+}

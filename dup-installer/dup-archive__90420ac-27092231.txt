@@ -1,0 +1,690 @@
+{
+    "dup_type": "lite",
+    "created": "2023-10-27 09:22:31",
+    "version_dup": "1.5.6",
+    "version_wp": "6.3.2",
+    "version_db": "10.5.20",
+    "version_php": "8.2.9",
+    "version_os": "Linux",
+    "blogname": "HALF Du Lauragais",
+    "exportOnlyDB": 0,
+    "secure_on": 0,
+    "secure_pass": "$2a$08$aAR\/f31He3TwUkReW7xCkO\/bR5SHSrxd3W42IKtgvmxuMLszBtuNq",
+    "dbhost": null,
+    "dbname": null,
+    "dbuser": null,
+    "cpnl_host": null,
+    "cpnl_user": null,
+    "cpnl_pass": null,
+    "cpnl_enable": null,
+    "wp_tableprefix": "wp_",
+    "mu_mode": 0,
+    "mu_generation": 0,
+    "mu_siteadmins": [
+        "admin"
+    ],
+    "subsites": [
+        {
+            "id": 1,
+            "domain": "ec2-35-180-86-211.eu-west-3.compute.amazonaws.com",
+            "path": "\/wordpress\/",
+            "blogname": "HALF Du Lauragais",
+            "blog_prefix": "wp_",
+            "filteredTables": [],
+            "adminUsers": [
+                {
+                    "ID": "1",
+                    "user_login": "admin",
+                    "id": "1"
+                }
+            ],
+            "fullHomeUrl": "http:\/\/ec2-35-180-86-211.eu-west-3.compute.amazonaws.com\/wordpress",
+            "fullSiteUrl": "http:\/\/ec2-35-180-86-211.eu-west-3.compute.amazonaws.com\/wordpress",
+            "uploadPath": "wp-content\/uploads",
+            "fullUploadPath": "\/var\/www\/html\/wordpress\/wp-content\/uploads",
+            "fullUploadSafePath": "\/var\/www\/html\/wordpress\/wp-content\/uploads",
+            "fullUploadUrl": "http:\/\/ec2-35-180-86-211.eu-west-3.compute.amazonaws.com\/wordpress\/wp-content\/uploads",
+            "filteredPaths": []
+        }
+    ],
+    "main_site_id": 1,
+    "mu_is_filtered": false,
+    "license_limit": 0,
+    "license_type": 0,
+    "dbInfo": {
+        "buildMode": "MYSQLDUMP",
+        "charSetList": [
+            "utf8mb4",
+            "utf8"
+        ],
+        "collationList": [
+            "utf8_unicode_ci",
+            "utf8mb4_unicode_520_ci"
+        ],
+        "engineList": [
+            "InnoDB"
+        ],
+        "isTablesUpperCase": 0,
+        "isNameUpperCase": 0,
+        "name": "wp_db",
+        "tablesBaseCount": 21,
+        "tablesFinalCount": 21,
+        "muFilteredTableCount": 0,
+        "tablesRowCount": 5695,
+        "tablesSizeOnDisk": 50675712,
+        "tablesList": {
+            "wp_actionscheduler_actions": {
+                "inaccurateRows": 72,
+                "insertedRows": 72,
+                "size": 163840
+            },
+            "wp_actionscheduler_claims": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 32768
+            },
+            "wp_actionscheduler_groups": {
+                "inaccurateRows": 2,
+                "insertedRows": 2,
+                "size": 32768
+            },
+            "wp_actionscheduler_logs": {
+                "inaccurateRows": 210,
+                "insertedRows": 210,
+                "size": 49152
+            },
+            "wp_commentmeta": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 49152
+            },
+            "wp_comments": {
+                "inaccurateRows": 0,
+                "insertedRows": 1,
+                "size": 98304
+            },
+            "wp_duplicator_packages": {
+                "inaccurateRows": 2,
+                "insertedRows": 1,
+                "size": 98304
+            },
+            "wp_e_events": {
+                "inaccurateRows": 10,
+                "insertedRows": 10,
+                "size": 32768
+            },
+            "wp_links": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 32768
+            },
+            "wp_options": {
+                "inaccurateRows": 397,
+                "insertedRows": 408,
+                "size": 10616832
+            },
+            "wp_postmeta": {
+                "inaccurateRows": 4296,
+                "insertedRows": 4830,
+                "size": 26738688
+            },
+            "wp_posts": {
+                "inaccurateRows": 571,
+                "insertedRows": 771,
+                "size": 12189696
+            },
+            "wp_termmeta": {
+                "inaccurateRows": 4,
+                "insertedRows": 4,
+                "size": 49152
+            },
+            "wp_terms": {
+                "inaccurateRows": 13,
+                "insertedRows": 13,
+                "size": 49152
+            },
+            "wp_term_relationships": {
+                "inaccurateRows": 38,
+                "insertedRows": 38,
+                "size": 32768
+            },
+            "wp_term_taxonomy": {
+                "inaccurateRows": 13,
+                "insertedRows": 13,
+                "size": 49152
+            },
+            "wp_usermeta": {
+                "inaccurateRows": 42,
+                "insertedRows": 42,
+                "size": 49152
+            },
+            "wp_users": {
+                "inaccurateRows": 0,
+                "insertedRows": 1,
+                "size": 65536
+            },
+            "wp_wpforms_payments": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 163840
+            },
+            "wp_wpforms_payment_meta": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 65536
+            },
+            "wp_wpforms_tasks_meta": {
+                "inaccurateRows": 25,
+                "insertedRows": 25,
+                "size": 16384
+            }
+        },
+        "lowerCaseTableNames": 0,
+        "dbEngine": "MariaDB",
+        "version": "10.5.20",
+        "versionComment": "MariaDB Server",
+        "viewCount": 0,
+        "procCount": 0,
+        "funcCount": 0,
+        "triggerList": []
+    },
+    "packInfo": {
+        "packageId": 3,
+        "packageName": "exportationwp",
+        "packageHash": "90420ac-27092231",
+        "secondaryHash": "b737e28-27092231"
+    },
+    "fileInfo": {
+        "dirCount": 1765,
+        "fileCount": 9455,
+        "size": 0
+    },
+    "wpInfo": {
+        "version": "6.3.2",
+        "is_multisite": false,
+        "network_id": 1,
+        "targetRoot": "\/var\/www\/html\/wordpress",
+        "targetPaths": [
+            "\/var\/www\/html\/wordpress"
+        ],
+        "adminUsers": [
+            {
+                "ID": "1",
+                "user_login": "admin",
+                "id": "1"
+            }
+        ],
+        "configs": {
+            "defines": {
+                "ABSPATH": {
+                    "value": "\/var\/www\/html\/wordpress\/",
+                    "inWpConfig": true
+                },
+                "DB_CHARSET": {
+                    "value": "utf8mb4",
+                    "inWpConfig": true
+                },
+                "DB_COLLATE": {
+                    "value": "",
+                    "inWpConfig": true
+                },
+                "AUTH_KEY": {
+                    "value": "AuB b^,K%=6nF9S{JU!v-fJNuD8?7P*gB?$!mt4<>4A]L\/@`|>MM=.>0Xq6Cvwf9",
+                    "inWpConfig": true
+                },
+                "SECURE_AUTH_KEY": {
+                    "value": "_am#G3FgS&H5O-#WuW,XAElub%I8z4CWI3y~.Tde]m},Usac>0$q~{iiOT:npu6:",
+                    "inWpConfig": true
+                },
+                "LOGGED_IN_KEY": {
+                    "value": "J;|{7#r`gL}fE<`;,e*K3nBR;`+93[aY}||J]zB=~>ELHceOAv;2>nf#eHEx=SJy",
+                    "inWpConfig": true
+                },
+                "NONCE_KEY": {
+                    "value": "$Ni5WDn[x>*trT*ZSCTP%o,sWqVASu+eibou[8$h1Wa;GH[~[<26DE7i-~*o+ 7y",
+                    "inWpConfig": true
+                },
+                "AUTH_SALT": {
+                    "value": "ay3c]rrX-;JqP$2~dK1oJl6X FmTrsViE0XH1|%FkT8W)*yRd(y.0T4ZFvr7C 2v",
+                    "inWpConfig": true
+                },
+                "SECURE_AUTH_SALT": {
+                    "value": "{t&yOaxPDc%;S:`x$b6|BHja}jY7-E{F3[2o#JM$+vdh\/BR1xG9`0]h}8PUKB@XH",
+                    "inWpConfig": true
+                },
+                "LOGGED_IN_SALT": {
+                    "value": "^HS63_MS-b-[z.7UR0=1CHth:~&TEN><O[n9m) 5CR_YKiwcWq{uM+B];?Him2v[",
+                    "inWpConfig": true
+                },
+                "NONCE_SALT": {
+                    "value": "g?d;FA5X!=]yFy!k?9sx2 aFBF*>ew7G}8Il1=}5KP0G_z88+c1_`GT0Q-RIK67r",
+                    "inWpConfig": true
+                },
+                "WP_CONTENT_DIR": {
+                    "value": "\/var\/www\/html\/wordpress\/wp-content",
+                    "inWpConfig": false
+                },
+                "WP_CONTENT_URL": {
+                    "value": "http:\/\/ec2-35-180-86-211.eu-west-3.compute.amazonaws.com\/wordpress\/wp-content",
+                    "inWpConfig": false
+                },
+                "WP_PLUGIN_DIR": {
+                    "value": "\/var\/www\/html\/wordpress\/wp-content\/plugins",
+                    "inWpConfig": false
+                },
+                "WP_PLUGIN_URL": {
+                    "value": "http:\/\/ec2-35-180-86-211.eu-west-3.compute.amazonaws.com\/wordpress\/wp-content\/plugins",
+                    "inWpConfig": false
+                },
+                "PLUGINDIR": {
+                    "value": "wp-content\/plugins",
+                    "inWpConfig": false
+                },
+                "AUTOSAVE_INTERVAL": {
+                    "value": 60,
+                    "inWpConfig": false
+                },
+                "WP_POST_REVISIONS": {
+                    "value": true,
+                    "inWpConfig": false
+                },
+                "COOKIE_DOMAIN": {
+                    "value": false,
+                    "inWpConfig": false
+                },
+                "MULTISITE": {
+                    "value": false,
+                    "inWpConfig": false
+                },
+                "WP_DEBUG": {
+                    "value": false,
+                    "inWpConfig": true
+                },
+                "SCRIPT_DEBUG": {
+                    "value": false,
+                    "inWpConfig": false
+                },
+                "WP_DEBUG_LOG": {
+                    "value": false,
+                    "inWpConfig": false
+                },
+                "WP_DEBUG_DISPLAY": {
+                    "value": true,
+                    "inWpConfig": false
+                },
+                "WP_MEMORY_LIMIT": {
+                    "value": "40M",
+                    "inWpConfig": false
+                },
+                "WP_MAX_MEMORY_LIMIT": {
+                    "value": "256M",
+                    "inWpConfig": false
+                },
+                "WP_CACHE": {
+                    "value": false,
+                    "inWpConfig": false
+                },
+                "WP_LANG_DIR": {
+                    "value": "\/var\/www\/html\/wordpress\/wp-content\/languages",
+                    "inWpConfig": false
+                },
+                "FS_CHMOD_DIR": {
+                    "value": 493,
+                    "inWpConfig": false
+                },
+                "FS_CHMOD_FILE": {
+                    "value": 420,
+                    "inWpConfig": false
+                },
+                "FS_METHOD": {
+                    "value": "direct",
+                    "inWpConfig": true
+                },
+                "WP_CRON_LOCK_TIMEOUT": {
+                    "value": 60,
+                    "inWpConfig": false
+                },
+                "COOKIEPATH": {
+                    "value": "\/wordpress\/",
+                    "inWpConfig": false
+                },
+                "SITECOOKIEPATH": {
+                    "value": "\/wordpress\/",
+                    "inWpConfig": false
+                },
+                "ADMIN_COOKIE_PATH": {
+                    "value": "\/wordpress\/wp-admin",
+                    "inWpConfig": false
+                },
+                "PLUGINS_COOKIE_PATH": {
+                    "value": "\/wordpress\/wp-content\/plugins",
+                    "inWpConfig": false
+                },
+                "TEMPLATEPATH": {
+                    "value": "\/var\/www\/html\/wordpress\/wp-content\/themes\/astra",
+                    "inWpConfig": false
+                },
+                "STYLESHEETPATH": {
+                    "value": "\/var\/www\/html\/wordpress\/wp-content\/themes\/astra",
+                    "inWpConfig": false
+                },
+                "EMPTY_TRASH_DAYS": {
+                    "value": 30,
+                    "inWpConfig": false
+                },
+                "FORCE_SSL_ADMIN": {
+                    "value": false,
+                    "inWpConfig": false
+                },
+                "WPMU_PLUGIN_DIR": {
+                    "value": "\/var\/www\/html\/wordpress\/wp-content\/mu-plugins",
+                    "inWpConfig": false
+                },
+                "WPMU_PLUGIN_URL": {
+                    "value": "http:\/\/ec2-35-180-86-211.eu-west-3.compute.amazonaws.com\/wordpress\/wp-content\/mu-plugins",
+                    "inWpConfig": false
+                },
+                "MUPLUGINDIR": {
+                    "value": "wp-content\/mu-plugins",
+                    "inWpConfig": false
+                }
+            },
+            "realValues": {
+                "siteUrl": "http:\/\/ec2-35-180-86-211.eu-west-3.compute.amazonaws.com\/wordpress",
+                "homeUrl": "http:\/\/ec2-35-180-86-211.eu-west-3.compute.amazonaws.com\/wordpress",
+                "loginUrl": "http:\/\/ec2-35-180-86-211.eu-west-3.compute.amazonaws.com\/wordpress\/wp-login.php",
+                "contentUrl": "http:\/\/ec2-35-180-86-211.eu-west-3.compute.amazonaws.com\/wordpress\/wp-content",
+                "uploadBaseUrl": "http:\/\/ec2-35-180-86-211.eu-west-3.compute.amazonaws.com\/wordpress\/wp-content\/uploads",
+                "pluginsUrl": "http:\/\/ec2-35-180-86-211.eu-west-3.compute.amazonaws.com\/wordpress\/wp-content\/plugins",
+                "mupluginsUrl": "http:\/\/ec2-35-180-86-211.eu-west-3.compute.amazonaws.com\/wordpress\/wp-content\/mu-plugins",
+                "themesUrl": "http:\/\/ec2-35-180-86-211.eu-west-3.compute.amazonaws.com\/wordpress\/wp-content\/themes",
+                "originalPaths": {
+                    "home": "\/var\/www\/html\/wordpress",
+                    "abs": "\/var\/www\/html\/wordpress",
+                    "wpconfig": "\/var\/www\/html\/wordpress",
+                    "wpcontent": "\/var\/www\/html\/wordpress\/wp-content",
+                    "uploads": "\/var\/www\/html\/wordpress\/wp-content\/uploads",
+                    "plugins": "\/var\/www\/html\/wordpress\/wp-content\/plugins",
+                    "muplugins": "\/var\/www\/html\/wordpress\/wp-content\/mu-plugins",
+                    "themes": "\/var\/www\/html\/wordpress\/wp-content\/themes"
+                },
+                "archivePaths": {
+                    "home": "\/var\/www\/html\/wordpress",
+                    "abs": "\/var\/www\/html\/wordpress",
+                    "wpconfig": "\/var\/www\/html\/wordpress",
+                    "wpcontent": "\/var\/www\/html\/wordpress\/wp-content",
+                    "uploads": "\/var\/www\/html\/wordpress\/wp-content\/uploads",
+                    "plugins": "\/var\/www\/html\/wordpress\/wp-content\/plugins",
+                    "muplugins": "\/var\/www\/html\/wordpress\/wp-content\/mu-plugins",
+                    "themes": "\/var\/www\/html\/wordpress\/wp-content\/themes"
+                }
+            }
+        },
+        "plugins": {
+            "duplicator\/duplicator.php": {
+                "slug": "duplicator\/duplicator.php",
+                "name": "Duplicator",
+                "version": "1.5.6",
+                "pluginURI": "https:\/\/duplicator.com\/",
+                "author": "Duplicator",
+                "authorURI": "https:\/\/duplicator.com\/",
+                "description": "Migrate and backup a copy of your WordPress files and database. Duplicate and move a site from one location to another quickly.",
+                "title": "Duplicator",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "elementor\/elementor.php": {
+                "slug": "elementor\/elementor.php",
+                "name": "Elementor",
+                "version": "3.17.0",
+                "pluginURI": "https:\/\/elementor.com\/?utm_source=wp-plugins&utm_campaign=plugin-uri&utm_medium=wp-dash",
+                "author": "Elementor.com",
+                "authorURI": "https:\/\/elementor.com\/?utm_source=wp-plugins&utm_campaign=author-uri&utm_medium=wp-dash",
+                "description": "The Elementor Website Builder has it all: drag and drop page builder, pixel perfect design, mobile responsive editing, and more. Get started now!",
+                "title": "Elementor",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "google-analytics-for-wordpress\/googleanalytics.php": {
+                "slug": "google-analytics-for-wordpress\/googleanalytics.php",
+                "name": "Google Analytics for WordPress by MonsterInsights",
+                "version": "8.20.1",
+                "pluginURI": "https:\/\/www.monsterinsights.com\/?utm_source=liteplugin&utm_medium=pluginheader&utm_campaign=pluginurl&utm_content=7%2E0%2E0",
+                "author": "MonsterInsights",
+                "authorURI": "https:\/\/www.monsterinsights.com\/lite\/?utm_source=liteplugin&utm_medium=pluginheader&utm_campaign=authoruri&utm_content=7%2E0%2E0",
+                "description": "The best Google Analytics plugin for WordPress. See how visitors find and use your website, so you can keep them coming back.",
+                "title": "Google Analytics for WordPress by MonsterInsights",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "google-site-kit\/google-site-kit.php": {
+                "slug": "google-site-kit\/google-site-kit.php",
+                "name": "Site Kit by Google",
+                "version": "1.111.1",
+                "pluginURI": "https:\/\/sitekit.withgoogle.com",
+                "author": "Google",
+                "authorURI": "https:\/\/opensource.google.com",
+                "description": "Site Kit is a one-stop solution for WordPress users to use everything Google has to offer to make them successful on the web.",
+                "title": "Site Kit by Google",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "astra-sites\/astra-sites.php": {
+                "slug": "astra-sites\/astra-sites.php",
+                "name": "Starter Templates",
+                "version": "3.4.4",
+                "pluginURI": "https:\/\/wpastra.com\/",
+                "author": "Brainstorm Force",
+                "authorURI": "https:\/\/www.brainstormforce.com",
+                "description": "Starter Templates is all in one solution for complete starter sites, single page templates, blocks & images. This plugin offers the premium library of ready templates & provides quick access to beautiful Pixabay images that can be imported in your website easily.",
+                "title": "Starter Templates",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "use-any-font\/use-any-font.php": {
+                "slug": "use-any-font\/use-any-font.php",
+                "name": "Use Any Font",
+                "version": "6.3.04",
+                "pluginURI": "https:\/\/dineshkarki.com.np\/use-any-font",
+                "author": "Dnesscarkey",
+                "authorURI": "https:\/\/dineshkarki.com.np\/use-any-font",
+                "description": "Embed any font in your website",
+                "title": "Use Any Font",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "wpforms-lite\/wpforms.php": {
+                "slug": "wpforms-lite\/wpforms.php",
+                "name": "WPForms Lite",
+                "version": "1.8.4.1",
+                "pluginURI": "https:\/\/wpforms.com",
+                "author": "WPForms",
+                "authorURI": "https:\/\/wpforms.com",
+                "description": "Beginner friendly WordPress contact form plugin. Use our Drag & Drop form builder to create your WordPress forms.",
+                "title": "WPForms Lite",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            }
+        },
+        "themes": {
+            "astra": {
+                "slug": "astra",
+                "themeName": "Astra",
+                "version": "4.4.0",
+                "themeURI": "https:\/\/wpastra.com\/",
+                "parentTheme": false,
+                "template": "astra",
+                "stylesheet": "astra",
+                "description": "Astra is fast, fully customizable &amp; beautiful WordPress theme suitable for blog, personal portfolio, business website and WooCommerce storefront. It is very lightweight (less than 50KB on frontend) and offers unparalleled speed. Built with SEO in mind, Astra comes with Schema.org code integrated and is Native AMP ready so search engines will love your site. It offers special features and templates so it works perfectly with all page builders like Elementor, Beaver Builder, Visual Composer, SiteOrigin, Divi, etc. Some of the other features: # WooCommerce Ready # Responsive # RTL &amp; Translation Ready # Extendible with premium addons # Regularly updated # Designed, Developed, Maintained &amp; Supported by Brainstorm Force. Looking for a perfect base theme? Look no further. Astra is fast, fully customizable and WooCommerce ready theme that you can use for building any kind of website!",
+                "author": "Brainstorm Force",
+                "authorURI": "https:\/\/wpastra.com\/about\/?utm_source=theme_preview&utm_medium=author_link&utm_campaign=astra_theme",
+                "tags": [
+                    "custom-menu",
+                    "custom-logo",
+                    "entertainment",
+                    "one-column",
+                    "two-columns",
+                    "left-sidebar",
+                    "e-commerce",
+                    "right-sidebar",
+                    "custom-colors",
+                    "editor-style",
+                    "featured-images",
+                    "full-width-template",
+                    "microformats",
+                    "post-formats",
+                    "rtl-language-support",
+                    "theme-options",
+                    "threaded-comments",
+                    "translation-ready",
+                    "blog"
+                ],
+                "isAllowed": true,
+                "isActive": true,
+                "defaultTheme": false
+            },
+            "twentytwentyone": {
+                "slug": "twentytwentyone",
+                "themeName": "Twenty Twenty-One",
+                "version": "1.9",
+                "themeURI": "https:\/\/wordpress.org\/themes\/twentytwentyone\/",
+                "parentTheme": false,
+                "template": "twentytwentyone",
+                "stylesheet": "twentytwentyone",
+                "description": "Twenty Twenty-One is a blank canvas for your ideas and it makes the block editor your best brush. With new block patterns, which allow you to create a beautiful layout in a matter of seconds, this theme\u2019s soft colors and eye-catching \u2014 yet timeless \u2014 design will let your work shine. Take it for a spin! See how Twenty Twenty-One elevates your portfolio, business website, or personal blog.",
+                "author": "the WordPress team",
+                "authorURI": "https:\/\/wordpress.org\/",
+                "tags": [
+                    "one-column",
+                    "accessibility-ready",
+                    "custom-colors",
+                    "custom-menu",
+                    "custom-logo",
+                    "editor-style",
+                    "featured-images",
+                    "footer-widgets",
+                    "block-patterns",
+                    "rtl-language-support",
+                    "sticky-post",
+                    "threaded-comments",
+                    "translation-ready"
+                ],
+                "isAllowed": true,
+                "isActive": false,
+                "defaultTheme": false
+            },
+            "twentytwentythree": {
+                "slug": "twentytwentythree",
+                "themeName": "Twenty Twenty-Three",
+                "version": "1.2",
+                "themeURI": "https:\/\/wordpress.org\/themes\/twentytwentythree",
+                "parentTheme": false,
+                "template": "twentytwentythree",
+                "stylesheet": "twentytwentythree",
+                "description": "Twenty Twenty-Three is designed to take advantage of the new design tools introduced in WordPress 6.1. With a clean, blank base as a starting point, this default theme includes ten diverse style variations created by members of the WordPress community. Whether you want to build a complex or incredibly simple website, you can do it quickly and intuitively through the bundled styles or dive into creation and full customization yourself.",
+                "author": "the WordPress team",
+                "authorURI": "https:\/\/wordpress.org",
+                "tags": [
+                    "one-column",
+                    "custom-colors",
+                    "custom-menu",
+                    "custom-logo",
+                    "editor-style",
+                    "featured-images",
+                    "full-site-editing",
+                    "block-patterns",
+                    "rtl-language-support",
+                    "sticky-post",
+                    "threaded-comments",
+                    "translation-ready",
+                    "wide-blocks",
+                    "block-styles",
+                    "style-variations",
+                    "accessibility-ready",
+                    "blog",
+                    "portfolio",
+                    "news"
+                ],
+                "isAllowed": true,
+                "isActive": false,
+                "defaultTheme": true
+            },
+            "twentytwentytwo": {
+                "slug": "twentytwentytwo",
+                "themeName": "Twenty Twenty-Two",
+                "version": "1.5",
+                "themeURI": "https:\/\/wordpress.org\/themes\/twentytwentytwo\/",
+                "parentTheme": false,
+                "template": "twentytwentytwo",
+                "stylesheet": "twentytwentytwo",
+                "description": "Built on a solidly designed foundation, Twenty Twenty-Two embraces the idea that everyone deserves a truly unique website. The theme\u2019s subtle styles are inspired by the diversity and versatility of birds: its typography is lightweight yet strong, its color palette is drawn from nature, and its layout elements sit gently on the page. The true richness of Twenty Twenty-Two lies in its opportunity for customization. The theme is built to take advantage of the Site Editor features introduced in WordPress 5.9, which means that colors, typography, and the layout of every single page on your site can be customized to suit your vision. It also includes dozens of block patterns, opening the door to a wide range of professionally designed layouts in just a few clicks. Whether you\u2019re building a single-page website, a blog, a business website, or a portfolio, Twenty Twenty-Two will help you create a site that is uniquely yours.",
+                "author": "the WordPress team",
+                "authorURI": "https:\/\/wordpress.org\/",
+                "tags": [
+                    "one-column",
+                    "custom-colors",
+                    "custom-menu",
+                    "custom-logo",
+                    "editor-style",
+                    "featured-images",
+                    "full-site-editing",
+                    "block-patterns",
+                    "rtl-language-support",
+                    "sticky-post",
+                    "threaded-comments",
+                    "style-variations",
+                    "wide-blocks",
+                    "block-styles",
+                    "accessibility-ready",
+                    "blog",
+                    "portfolio",
+                    "news"
+                ],
+                "isAllowed": true,
+                "isActive": false,
+                "defaultTheme": false
+            }
+        }
+    },
+    "defaultStorageId": -1,
+    "components": [
+        "package_component_db",
+        "package_component_core",
+        "package_component_plugins",
+        "package_component_themes",
+        "package_component_uploads",
+        "package_component_other"
+    ],
+    "opts_delete": "[\"duplicator_ui_view_state\",\"duplicator_package_active\",\"duplicator_settings\",\"duplicator_is_pro_enable_notice_dismissed\"]",
+    "brand": {
+        "name": "Duplicator",
+        "isDefault": true,
+        "logo": "<i class=\"fa fa-bolt fa-sm\"><\/i> Duplicator",
+        "enabled": false,
+        "style": []
+    },
+    "overwriteInstallerParams": {
+        "blogname": {
+            "value": "HALF Du Lauragais"
+        }
+    },
+    "installer_base_name": "installer.php.bak",
+    "installer_backup_name": "exportationwp_90420ac87ebf5ac22707_20231027092231_installer-backup.php",
+    "package_name": "exportationwp_90420ac87ebf5ac22707_20231027092231_archive.daf",
+    "package_hash": "90420ac-27092231",
+    "package_notes": ""
+}

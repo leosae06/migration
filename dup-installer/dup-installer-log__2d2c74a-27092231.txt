@@ -1,0 +1,1255 @@
+********************************************************************************
+* DUPLICATOR LITE: Install-Log
+* STEP-0 START @ 09:13:17
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+PACKAGE INFO________ ORIGINAL SERVER                        |CURRENT SERVER
+OS__________________: Linux                                 |WINNT
+PHP VERSION_________: 8.2.9                                 |8.2.13
+********************************************************************************
+CURRENT SERVER INFO
+PHP_________________: 8.2.13 | SAPI: apache2handler
+PHP MEMORY__________: 4294967296 | SUHOSIN: disabled
+ARCHITECTURE________: 64-bit
+SERVER______________: Apache/2.4.58 (Win64) PHP/8.2.13 mod_fcgid/2.3.10-dev
+DOC ROOT____________: "C:/wamp64/www/migration"
+REQUEST URL_________: "http://localhost/migration"
+********************************************************************************
+OVERWRITE PARAMS
+ *** FROM PACKAGE
+PARAM SET KEY[blogname]
+********************************************************************************
+MAINTENANCE MODE DISABLE
+INSTALLER INFO
+
+TEMPLATE____________: "base"
+SECURE MODE_________: "none"
+URL PLUGINS_________: http://ec2-35-180-86-211.eu-west-3.compute.amazonaws.com/wordpress/wp-content/plugins
+VALIDATE ON START___: "normal"
+PATH_NEW____________: "C:/wamp64/www/migration"
+URL_NEW_____________: "http://localhost/migration"
+********************************************************************************
+ARCHIVE INFO
+
+ARCHIVE NAME________: "C:/wamp64/www/migration/exportationwp_[HASH]_20231027092231_archive.daf"
+ARCHIVE SIZE________: 99.56MB
+CREATED_____________: 2023-10-27 09:22:31
+WP VERSION__________: 6.3.2
+DUP VERSION_________: 1.5.6
+LICENSE_____________: Free version
+DB VERSION__________: 10.5.20
+DB FILE SIZE________: 48.33MB
+DB TABLES___________: 21
+DB ROWS_____________: 5695
+URL HOME____________: http://ec2-35-180-86-211.eu-west-3.compute.amazonaws.com/wordpress
+URL CORE____________: http://ec2-35-180-86-211.eu-west-3.compute.amazonaws.com/wordpress
+URL CONTENT_________: http://ec2-35-180-86-211.eu-west-3.compute.amazonaws.com/wordpress/wp-content
+URL UPLOAD__________: http://ec2-35-180-86-211.eu-west-3.compute.amazonaws.com/wordpress/wp-content/uploads
+URL PLUGINS_________: http://ec2-35-180-86-211.eu-west-3.compute.amazonaws.com/wordpress/wp-content/plugins
+URL MU PLUGINS______: http://ec2-35-180-86-211.eu-west-3.compute.amazonaws.com/wordpress/wp-content/mu-plugins
+URL THEMES__________: http://ec2-35-180-86-211.eu-west-3.compute.amazonaws.com/wordpress/wp-content/themes
+PATH HOME___________: /var/www/html/wordpress
+PATH ABS____________: /var/www/html/wordpress
+PATH WPCONFIG_______: /var/www/html/wordpress
+PATH WPCONTENT______: /var/www/html/wordpress/wp-content
+PATH UPLOADS________: /var/www/html/wordpress/wp-content/uploads
+PATH PLUGINS________: /var/www/html/wordpress/wp-content/plugins
+PATH MUPLUGINS______: /var/www/html/wordpress/wp-content/mu-plugins
+PATH THEMES_________: /var/www/html/wordpress/wp-content/themes
+
+SUBSITES
+SUBSITE [ID:   1] "ec2-35-180-86-211.eu-west-3.compute.amazonaws.com/wordpress/"
+
+PLUGINS
+PLUGIN [SLUG:duplicator/duplicator.php                         ][ON:true ]  Duplicator
+PLUGIN [SLUG:elementor/elementor.php                           ][ON:true ]  Elementor
+PLUGIN [SLUG:google-analytics-for-wordpress/googleanalytics.php][ON:true ]  Google Analytics for WordPress by MonsterInsights
+PLUGIN [SLUG:google-site-kit/google-site-kit.php               ][ON:true ]  Site Kit by Google
+PLUGIN [SLUG:astra-sites/astra-sites.php                       ][ON:true ]  Starter Templates
+PLUGIN [SLUG:use-any-font/use-any-font.php                     ][ON:true ]  Use Any Font
+PLUGIN [SLUG:wpforms-lite/wpforms.php                          ][ON:true ]  WPForms Lite
+
+********************************************************************************
+LOG-TIME[C:\wamp64\www\migration\dup-installer\ctrls\ctrl.base.php:227][DELTA:   2.32303]  MESSAGE:END RENDER PAGE
+LOG-TIME[C:\wamp64\www\migration\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [sparam_s1] START
+AJAX ACTION [sparam_s1] SUCCESS
+-------------------------
+
+LOG-TIME[C:\wamp64\www\migration\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+STEP ACTION: "on-validate"
+LOG-TIME[C:\wamp64\www\migration\dup-installer\ctrls\ctrl.base.php:227][DELTA:   2.29349]  MESSAGE:END RENDER PAGE
+LOG-TIME[C:\wamp64\www\migration\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [validate] START
+START TEST "Archive Check" [CLASS: DUPX_Validation_test_archive_check]
+LOG-TIME[DELTA:   0.00010]  MESSAGE:TEST "Archive Check" RESULT: passed
+
+START TEST "Duplicator importer version" [CLASS: DUPX_Validation_test_importer_version]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Duplicator importer version" RESULT: skip
+
+START TEST "Overwrite Install" [CLASS: DUPX_Validation_test_owrinstall]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Overwrite Install" RESULT: skip
+
+START TEST "Recovery Point" [CLASS: DUPX_Validation_test_recovery]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Recovery Point" RESULT: skip
+
+START TEST "Package is Importable" [CLASS: DUPX_Validation_test_importable]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Package is Importable" RESULT: skip
+
+START TEST "REST API test" [CLASS: DUPX_Validation_test_rest_api]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "REST API test" RESULT: skip
+
+START TEST "Manual extraction detected" [CLASS: DUPX_Validation_test_manual_extraction]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Manual extraction detected" RESULT: good
+
+START TEST "Database Only" [CLASS: DUPX_Validation_test_dbonly_iswordpress]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Database Only" RESULT: skip
+
+START TEST "Package Age" [CLASS: DUPX_Validation_test_package_age]
+LOG-TIME[DELTA:   0.00004]  MESSAGE:TEST "Package Age" RESULT: good
+
+START TEST "Package Size" [CLASS: DUPX_Validation_test_package_size]
+LOG-TIME[DELTA:   0.00008]  MESSAGE:TEST "Package Size" RESULT: good
+
+START TEST "Replace PATHs in database" [CLASS: DUPX_Validation_test_replace_paths]
+LOG-TIME[DELTA:   0.00003]  MESSAGE:TEST "Replace PATHs in database" RESULT: skip
+
+START TEST "Managed hosting supported" [CLASS: DUPX_Validation_test_managed_supported]
+LOG-TIME[DELTA:   0.00017]  MESSAGE:TEST "Managed hosting supported" RESULT: skip
+
+START TEST "Siteground" [CLASS: DUPX_Validation_test_siteground]
+LOG-TIME[DELTA:   0.00011]  MESSAGE:TEST "Siteground" RESULT: skip
+
+START TEST "Addon Sites" [CLASS: DUPX_Validation_test_addon_sites]
+--------------------------------------
+PATHS MAPPING : "C:/wamp64/www/migration"
+--------------------------------------
+LOG-TIME[DELTA:   0.06768]  MESSAGE:TEST "Addon Sites" RESULT: good
+
+START TEST "Wordfence" [CLASS: DUPX_Validation_test_wordfence]
+LOG-TIME[DELTA:   0.00049]  MESSAGE:TEST "Wordfence" RESULT: good
+
+START TEST "Table prefix of managed hosting" [CLASS: DUPX_Validation_test_managed_tprefix]
+LOG-TIME[DELTA:   0.00018]  MESSAGE:TEST "Table prefix of managed hosting" RESULT: skip
+
+START TEST "PHP Version Mismatch" [CLASS: DUPX_Validation_test_php_version]
+LOG-TIME[DELTA:   0.00003]  MESSAGE:TEST "PHP Version Mismatch" RESULT: good
+
+START TEST "PHP Open Base" [CLASS: DUPX_Validation_test_open_basedir]
+LOG-TIME[DELTA:   0.00005]  MESSAGE:TEST "PHP Open Base" RESULT: good
+
+START TEST "PHP Memory Limit" [CLASS: DUPX_Validation_test_memory_limit]
+LOG-TIME[DELTA:   0.00005]  MESSAGE:TEST "PHP Memory Limit" RESULT: good
+
+START TEST "PHP Extensions" [CLASS: DUPX_Validation_test_extensions]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "PHP Extensions" RESULT: good
+
+START TEST "PHP Mysqli" [CLASS: DUPX_Validation_test_mysql_connect]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "PHP Mysqli" RESULT: passed
+
+START TEST "PHP Tokenizer" [CLASS: DUPX_Validation_test_tokenizer]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "PHP Tokenizer" RESULT: passed
+
+START TEST "PHP Timeout" [CLASS: DUPX_Validation_test_timeout]
+LOG-TIME[DELTA:   0.00003]  MESSAGE:TEST "PHP Timeout" RESULT: good
+
+START TEST "Disk Space" [CLASS: DUPX_Validation_test_disk_space]
+LOG-TIME[DELTA:   0.00521]  MESSAGE:TEST "Disk Space" RESULT: good
+
+START TEST "Permissions: General" [CLASS: DUPX_Validation_test_iswritable]
+LOG-TIME[DELTA:   0.03786]  MESSAGE:TEST "Permissions: General" RESULT: passed
+
+START TEST "Permissions: Configs Files " [CLASS: DUPX_Validation_test_iswritable_configs]
+LOG-TIME[DELTA:   0.00060]  MESSAGE:TEST "Permissions: Configs Files " RESULT: passed
+
+START TEST "Host Name" [CLASS: DUPX_Validation_test_db_host_name]
+LOG-TIME[DELTA:   0.00005]  MESSAGE:TEST "Host Name" RESULT: passed
+
+START TEST "Host Connection" [CLASS: DUPX_Validation_test_db_connection]
+LOG-TIME[DELTA:   0.00213]  MESSAGE:TEST "Host Connection" RESULT: passed
+
+START TEST "Database Version" [CLASS: DUPX_Validation_test_db_version]
+LOG-TIME[DELTA:   0.00220]  MESSAGE:TEST "Database Version" RESULT: soft warning
+
+START TEST "Create New Database" [CLASS: DUPX_Validation_test_db_create]
+LOG-TIME[DELTA:   0.00003]  MESSAGE:TEST "Create New Database" RESULT: skip
+
+START TEST "Database Engine Support" [CLASS: DUPX_Validation_test_db_supported_engine]
+LOG-TIME[DELTA:   0.00022]  MESSAGE:TEST "Database Engine Support" RESULT: passed
+
+START TEST "Database GTID Mode" [CLASS: DUPX_Validation_test_db_gtid_mode]
+LOG-TIME[DELTA:   0.00012]  MESSAGE:TEST "Database GTID Mode" RESULT: passed
+
+START TEST "Privileges: User Visibility" [CLASS: DUPX_Validation_test_db_visibility]
+LOG-TIME[DELTA:   0.00016]  MESSAGE:TEST "Privileges: User Visibility" RESULT: passed
+
+START TEST "Manual Table Check" [CLASS: DUPX_Validation_test_db_manual_tabels_count]
+LOG-TIME[DELTA:   0.00003]  MESSAGE:TEST "Manual Table Check" RESULT: skip
+
+START TEST "Multiple WordPress Installs" [CLASS: DUPX_Validation_test_db_multiple_wp_installs]
+LOG-TIME[DELTA:   0.00251]  MESSAGE:TEST "Multiple WordPress Installs" RESULT: passed
+
+START TEST "Privileges: User Resources" [CLASS: DUPX_Validation_test_db_user_resources]
+LOG-TIME[DELTA:   0.00031]  MESSAGE:TEST "Privileges: User Resources" RESULT: passed
+
+START TEST "Privileges: User Table Access" [CLASS: DUPX_Validation_test_db_user_perms]
+LOG-TIME[DELTA:   0.01148]  MESSAGE:TEST "Privileges: User Table Access" RESULT: passed
+
+START TEST "Privileges: 'Show Variables' Query" [CLASS: DUPX_Validation_test_db_custom_queries]
+LOG-TIME[DELTA:   0.00123]  MESSAGE:TEST "Privileges: 'Show Variables' Query" RESULT: passed
+
+START TEST "Source Database Triggers" [CLASS: DUPX_Validation_test_db_triggers]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Source Database Triggers" RESULT: passed
+
+START TEST "Character Set and Collation Support" [CLASS: DUPX_Validation_test_db_supported_default_charset]
+LOG-TIME[DELTA:   0.00316]  MESSAGE:TEST "Character Set and Collation Support" RESULT: passed
+
+START TEST "Character Set and  Collation Capability" [CLASS: DUPX_Validation_test_db_supported_charset]
+LOG-TIME[DELTA:   0.00009]  MESSAGE:TEST "Character Set and  Collation Capability" RESULT: hard warning
+
+START TEST "Tables Case Sensitivity" [CLASS: DUPX_Validation_test_db_case_sensitive_tables]
+LOG-TIME[DELTA:   0.00003]  MESSAGE:TEST "Tables Case Sensitivity" RESULT: skip
+
+START TEST "Tables Flagged for Removal or Backup" [CLASS: DUPX_Validation_test_db_affected_tables]
+LOG-TIME[DELTA:   0.00187]  MESSAGE:TEST "Tables Flagged for Removal or Backup" RESULT: soft warning
+
+START TEST "Prefix too long" [CLASS: DUPX_Validation_test_db_prefix_too_long]
+LOG-TIME[DELTA:   0.00025]  MESSAGE:TEST "Prefix too long" RESULT: passed
+
+START TEST "Database cleanup" [CLASS: DUPX_Validation_test_db_cleanup]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Database cleanup" RESULT: skip
+
+
+CTRL PARAMS AFTER VALIDATION
+AJAX ACTION [validate] SUCCESS
+-------------------------
+
+LOG-TIME[C:\wamp64\www\migration\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [proceed_confirm_dialog] START
+AJAX ACTION [proceed_confirm_dialog] SUCCESS
+-------------------------
+
+LOG-TIME[C:\wamp64\www\migration\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [sparam_s1] START
+AJAX ACTION [sparam_s1] SUCCESS
+-------------------------
+
+LOG-TIME[C:\wamp64\www\migration\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+INITIALIZE FILTERS
+--------------------------------------
+PATHS MAPPING : "C:/wamp64/www/migration"
+--------------------------------------
+********************************************************************************
+* DUPLICATOR LITE: Install-Log
+* STEP-1 START @ 09:13:36
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+USER INPUTS
+INSTALL TYPE________: single site
+BLOG NAME___________: "HALF Du Lauragais"
+HOME URL NEW________: "http://localhost/migration"
+SITE URL NEW________: "http://localhost/migration/"
+CONTENT URL NEW_____: "http://localhost/migration/wp-content"
+UPLOAD URL NEW______: "http://localhost/migration/wp-content/uploads"
+PLUGINS URL NEW_____: "http://localhost/migration/wp-content/plugins"
+MUPLUGINS URL NEW___: "http://localhost/migration/wp-content/mu-plugins"
+HOME PATH NEW_______: "C:/wamp64/www/migration"
+SITE PATH NEW_______: "C:/wamp64/www/migration/"
+CONTENT PATH NEW____: "C:/wamp64/www/migration/wp-content"
+UPLOAD PATH NEW_____: "C:/wamp64/www/migration/wp-content/uploads"
+PLUGINS PATH NEW____: "C:/wamp64/www/migration/wp-content/plugins"
+MUPLUGINS PATH NEW__: "C:/wamp64/www/migration/wp-content/mu-plugins"
+ARCHIVE ACTION______: "donothing"
+SKIP WP FILES_______: "none"
+ARCHIVE ENGINE______: "duparchive"
+SET DIR PERMS_______: false
+DIR PERMS VALUE_____: 0755
+SET FILE PERMS______: false
+FILE PERMS VALUE____: 0644
+SAFE MODE___________: 0
+LOGGING_____________: 1
+ZIP THROTTLING______: false
+WP CONFIG___________: "modify"
+HTACCESS CONFIG_____: "new"
+OTHER CONFIG________: "new"
+FILE TIME___________: "current"
+********************************************************************************
+
+REMOVE FILTERS
+	DIR : "C:/wamp64/www/migration/dup-installer"
+	FILE: "C:/wamp64/www/migration/exportationwp_[HASH]_20231027092231_installer-backup.php"
+	FILE: "C:/wamp64/www/migration/exportationwp_[HASH]_20231027092231_archive.daf"
+	FILE: "C:/wamp64/www/migration/installer.php"
+	FILE: "C:/wamp64/www/migration/dup-installer-bootlog__2d2c74a-27092231.txt"
+EXTRACTION FILTERS
+	DIR : "dup-installer"
+	FILE: "exportationwp_[HASH]_20231027092231_installer-backup.php"
+--------------------------------------
+
+
+EXTRACTION: DUP ARCHIVE >>> START
+MAINTENANCE MODE ENABLE
+BEFORE EXTRACION ACTIONS
+
+*** RESET CONFIG FILES IN CURRENT HOSTING >>> START
+
+*** RESET CONFIG FILES IN CURRENT HOSTING >>> END
+MAINTENANCE MODE ENABLE
+
+*** CREATE FOLDER AND PERMISSION PREPARE
+FOLDER PREPARE DONE
+SQL FILE NOT FOUND SO ADD TO EXTRACTION
+ARCHIVE OFFSET 0
+DAWN START EXPAND
+DUP EXPAND OFFSET 30
+CHUNK COMPLETE - RUNTIME: 5.9455 sec. - Files processed: 8,668 of 11,220
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\wamp64\www\migration\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 95864276
+DAWN CONTINUE EXPAND
+#### seeking archive offset 95864276
+DUP EXPAND OFFSET 95864276
+--------------------------------------
+PATHS MAPPING : "C:/wamp64/www/migration"
+--------------------------------------
+DUP EXPAND DONE
+
+
+EXTRACTION: DUP ARCHIVE >>> DONE
+
+EXTRACTION COMPLETE @ 09:13:42 - RUNTIME: 6.5013 sec. - Files processed: 11,220 of 11,220
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\wamp64\www\migration\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [dbinstall] START
+ADD PREFIX META MAP ID 0 wp_
+
+
+
+********************************************************************************
+* DUPLICATOR LITE: INSTALL-LOG
+* STEP-2 START @ 09:13:42
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+USER INPUTS
+DB ENGINE___________: "chunk"
+VIEW MODE___________: "basic"
+DB ACTION___________: "empty"
+DB HOST_____________: "**OBSCURED**"
+DB NAME_____________: "**OBSCURED**"
+DB PASS_____________: "**OBSCURED**"
+DB PORT_____________: "**OBSCURED**"
+USER MODE___________: "overwrite"
+TABLE PREFIX________: "wp_"
+MYSQL MODE__________: "DEFAULT"
+MYSQL MODE OPTS_____: ""
+CHARSET_____________: "utf8mb4"
+COLLATE_____________: ""
+CUNKING_____________: true
+VIEW CREATION_______: true
+STORED PROCEDURE____: true
+FUNCTIONS___________: true
+REMOVE DEFINER______: false
+SPLIT CREATES_______: true
+--------------------------------------
+TABLES
+--------------------------------------
+TABLE "wp_actionscheduler_actions"______________________[ROWS:      72] [EXTRACT|REPLACE] [INST NAME: wp_actionscheduler_actions]
+TABLE "wp_actionscheduler_claims"_______________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_actionscheduler_claims]
+TABLE "wp_actionscheduler_groups"_______________________[ROWS:       2] [EXTRACT|REPLACE] [INST NAME: wp_actionscheduler_groups]
+TABLE "wp_actionscheduler_logs"_________________________[ROWS:     210] [EXTRACT|REPLACE] [INST NAME: wp_actionscheduler_logs]
+TABLE "wp_commentmeta"__________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_commentmeta]
+TABLE "wp_comments"_____________________________________[ROWS:       1] [EXTRACT|REPLACE] [INST NAME: wp_comments]
+TABLE "wp_duplicator_packages"__________________________[ROWS:       1] [EXTRACT|REPLACE] [INST NAME: wp_duplicator_packages]
+TABLE "wp_e_events"_____________________________________[ROWS:      10] [EXTRACT|REPLACE] [INST NAME: wp_e_events]
+TABLE "wp_links"________________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_links]
+TABLE "wp_options"______________________________________[ROWS:     408] [EXTRACT|REPLACE] [INST NAME: wp_options]
+TABLE "wp_postmeta"_____________________________________[ROWS:    4830] [EXTRACT|REPLACE] [INST NAME: wp_postmeta]
+TABLE "wp_posts"________________________________________[ROWS:     771] [EXTRACT|REPLACE] [INST NAME: wp_posts]
+TABLE "wp_termmeta"_____________________________________[ROWS:       4] [EXTRACT|REPLACE] [INST NAME: wp_termmeta]
+TABLE "wp_terms"________________________________________[ROWS:      13] [EXTRACT|REPLACE] [INST NAME: wp_terms]
+TABLE "wp_term_relationships"___________________________[ROWS:      38] [EXTRACT|REPLACE] [INST NAME: wp_term_relationships]
+TABLE "wp_term_taxonomy"________________________________[ROWS:      13] [EXTRACT|REPLACE] [INST NAME: wp_term_taxonomy]
+TABLE "wp_usermeta"_____________________________________[ROWS:      42] [EXTRACT|REPLACE] [INST NAME: wp_usermeta]
+TABLE "wp_users"________________________________________[ROWS:       1] [EXTRACT|REPLACE] [INST NAME: wp_users]
+TABLE "wp_wpforms_payments"_____________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_wpforms_payments]
+TABLE "wp_wpforms_payment_meta"_________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_wpforms_payment_meta]
+TABLE "wp_wpforms_tasks_meta"___________________________[ROWS:      25] [EXTRACT|REPLACE] [INST NAME: wp_wpforms_tasks_meta]
+********************************************************************************
+
+--------------------------------------
+DATABASE-ENVIRONMENT
+--------------------------------------
+MYSQL VERSION:	This Server: 8.2.0 -- Build Server: 10.5.20
+FILE SIZE:	dup-database__[HASH].sql (31.78MB)
+TIMEOUT:	5000
+MAXPACK:	268435456
+SQLMODE-GLOBAL:	
+SQLMODE-SESSION:NO_AUTO_VALUE_ON_ZERO
+DROP ALL TABLES
+DROP TABLE wp_actionscheduler_actions
+DROP TABLE wp_actionscheduler_claims
+DROP TABLE wp_actionscheduler_groups
+DROP TABLE wp_actionscheduler_logs
+DROP TABLE wp_commentmeta
+DROP TABLE wp_comments
+DROP TABLE wp_duplicator_packages
+DROP TABLE wp_e_events
+DROP TABLE wp_links
+DROP TABLE wp_options
+DROP TABLE wp_postmeta
+DROP TABLE wp_posts
+DROP TABLE wp_term_relationships
+DROP TABLE wp_term_taxonomy
+DROP TABLE wp_termmeta
+DROP TABLE wp_terms
+DROP TABLE wp_usermeta
+DROP TABLE wp_users
+DROP TABLE wp_wpforms_payment_meta
+DROP TABLE wp_wpforms_payments
+DROP TABLE wp_wpforms_tasks_meta
+--------------------------------------
+DATABASE RESULTS
+--------------------------------------
+QUERY FIXES
+GLOBAL RULES ADDED: PROC AND VIEWS
+GLOBAL RULES ADDED: INVALID CHARSETS
+GLOBAL RULES ADDED: INVALID COLLATIONS
+
+QUERY FIXES GLOBAL RULES
+	SEARCH  => /^(\s*(?:\/\*!\d+\s)?\s*(?:CREATE.+)?DEFINER\s*=)([^\*\s]+)(.*)$/m
+	REPLACE => $1`root`@`localhost`$3
+
+	SEARCH  => /^(\s*CREATE.+(?:PROCEDURE|FUNCTION)[\s\S]*)(BEGIN)([\s\S]*)$/
+	REPLACE => $1SQL SECURITY INVOKER
+$2$3
+
+	SEARCH  => /(^.*(?:CHARSET|CHARACTER SET)\s*[\s=]\s*[`'"]?)((?:utf8))([`'"]?\s.*COLLATE\s*[\s=]\s*[`'"]?)([^`'"\s;,]+)([`'"]?.*$)/m
+	REPLACE => $1utf8mb4$3utf8mb4_0900_ai_ci$5
+
+	SEARCH  => /(^.*COLLATE\s*[\s=]\s*[`'"]?)([^`'"\s;,]+)([`'"]?\s.*(?:CHARSET|CHARACTER SET)\s*[\s=]\s*[`'"]?)((?:utf8))([`'"]?[\s;,].*$)/m
+	REPLACE => $1utf8mb4_0900_ai_ci$3utf8mb4$5
+
+	SEARCH  => /(^.*(?:CHARSET|CHARACTER SET)\s*[\s=]\s*[`'"]?)((?:utf8))([`'"]?[\s;,].*$)/m
+	REPLACE => $1utf8mb4$3
+
+	SEARCH  => /(^.*(?:CHARSET|CHARACTER SET)\s*[\s=]\s*[`'"]?)([^`'"\s;,]+)([`'"]?\s.*COLLATE\s*[\s=]\s*[`'"]?)((?:utf8_unicode_ci))([`'"]?[\s;,].*$)/m
+	REPLACE => $1utf8mb4$3utf8mb4_0900_ai_ci$5
+
+	SEARCH  => /(^.*COLLATE\s*[\s=]\s*[`'"]?)((?:utf8_unicode_ci))([`'"]?\s.*(?:CHARSET|CHARACTER SET)\s*[\s=]\s*[`'"]?)([^`'"\s;,]+)([`'"]?.*$)/m
+	REPLACE => $1utf8mb4_0900_ai_ci$3utf8mb4$5
+
+	SEARCH  => /(^.*COLLATE\s*[\s=]\s*[`'"]?)((?:utf8_unicode_ci))([`'"]?[\s;,].*$)/m
+	REPLACE => $1utf8mb4_0900_ai_ci$3
+
+--------------------------------------
+** DATABASE CHUNK install start
+--------------------------------------
+DATABASE CHUNK SEEK POSITION: 0
+Auto Commit set to false successfully
+NO TABLE TO SKIP
+Auto Commit set to true successfully
+--------------------------------------
+** DATABASE CHUNK install end
+--------------------------------------
+ERRORS FOUND:	0
+DROPPED TABLES:	21
+RENAMED TABLES:	0
+QUERIES RAN:	226
+
+TABLES ROWS IN DATABASE AFTER EXTRACTION
+
+TABLE "wp_actionscheduler_actions"______________________[ROWS:    72]
+TABLE "wp_actionscheduler_claims"_______________________[ROWS:     0]
+TABLE "wp_actionscheduler_groups"_______________________[ROWS:     2]
+TABLE "wp_actionscheduler_logs"_________________________[ROWS:   210]
+TABLE "wp_commentmeta"__________________________________[ROWS:     0]
+TABLE "wp_comments"_____________________________________[ROWS:     1]
+TABLE "wp_duplicator_packages"__________________________[ROWS:     1]
+TABLE "wp_e_events"_____________________________________[ROWS:    10]
+TABLE "wp_links"________________________________________[ROWS:     0]
+TABLE "wp_options"______________________________________[ROWS:   408]
+TABLE "wp_postmeta"_____________________________________[ROWS:  4830]
+TABLE "wp_posts"________________________________________[ROWS:   771]
+TABLE "wp_term_relationships"___________________________[ROWS:    38]
+TABLE "wp_term_taxonomy"________________________________[ROWS:    13]
+TABLE "wp_termmeta"_____________________________________[ROWS:     4]
+TABLE "wp_terms"________________________________________[ROWS:    13]
+TABLE "wp_usermeta"_____________________________________[ROWS:    42]
+TABLE "wp_users"________________________________________[ROWS:     1]
+TABLE "wp_wpforms_payment_meta"_________________________[ROWS:     0]
+TABLE "wp_wpforms_payments"_____________________________[ROWS:     0]
+TABLE "wp_wpforms_tasks_meta"___________________________[ROWS:    25]
+
+INSERT DATA RUNTIME: 3.3291 sec.
+STEP-2 COMPLETE @ 09:13:45 - RUNTIME: 3.3293 sec.
+AJAX ACTION [dbinstall] SUCCESS
+-------------------------
+
+LOG-TIME[C:\wamp64\www\migration\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [webupdate] START
+
+====================================
+SET SEARCH AND REPLACE LIST INSTALL TYPE single site
+====================================
+SEARCH ITEM[T:path |P:12] SEARCH: /var/www/html/wordpress REPLACE: C:/wamp64/www/migration/ [SCOPE: ALL]
+SEARCH ITEM[T:path |P:12] SEARCH: /var/www/html/wordpress REPLACE: C:/wamp64/www/migration [SCOPE: ALL]
+SEARCH ITEM[T:urlnd|P:12] SEARCH: http://ec2-35-180-86-211.eu-west-3.compute.amazonaws.com/wordpress REPLACE: http://localhost/migration/ [SCOPE: ALL]
+SEARCH ITEM[T:urlnd|P:12] SEARCH: http://ec2-35-180-86-211.eu-west-3.compute.amazonaws.com/wordpress REPLACE: http://localhost/migration [SCOPE: ALL]
+CHUNK LOAD DATA: IS NULL 
+CHUNK ACTION: CURRENT [start][][]
+
+
+********************************************************************************
+DUPLICATOR LITE: INSTALL-LOG
+STEP-3 START @ 09:13:45
+NOTICE: Do NOT post to public sites or forums
+********************************************************************************
+CHARSET SERVER:	"utf8mb4"
+CHARSET CLIENT:	"utf8mb4"
+********************************************************************************
+OPTIONS:
+SKIP PATH REPLACE_____: false
+DISALLOW_FILE_EDIT____: [value = ], [inWpConfig = ]
+DISALLOW_FILE_MODS____: [value = ], [inWpConfig = ]
+AUTOSAVE_INTERVAL_____: [value = 60], [inWpConfig = ]
+WP_POST_REVISIONS_____: [value = 1], [inWpConfig = ]
+FORCE_SSL_ADMIN_______: [value = ], [inWpConfig = ]
+WP_AUTO_UPDATE_CORE___: [value = false], [inWpConfig = ]
+WP_CACHE______________: [value = ], [inWpConfig = ]
+WPCACHEHOME___________: [value = /], [inWpConfig = ]
+WP_DEBUG______________: [value = ], [inWpConfig = 1]
+WP_DEBUG_LOG__________: [value = ], [inWpConfig = ]
+WP_DEBUG_DISPLAY______: [value = 1], [inWpConfig = ]
+WP_DISABLE_FATAL_ERROR_HANDLER: [value = ], [inWpConfig = ]
+SCRIPT_DEBUG__________: [value = ], [inWpConfig = ]
+CONCATENATE_SCRIPTS___: [value = ], [inWpConfig = ]
+SAVEQUERIES___________: [value = ], [inWpConfig = ]
+ALTERNATE_WP_CRON_____: [value = ], [inWpConfig = ]
+DISABLE_WP_CRON_______: [value = ], [inWpConfig = ]
+WP_CRON_LOCK_TIMEOUT__: [value = 60], [inWpConfig = ]
+COOKIE_DOMAIN_________: [value = ], [inWpConfig = ]
+WP_MEMORY_LIMIT_______: [value = 40M], [inWpConfig = ]
+WP_MAX_MEMORY_LIMIT___: [value = 256M], [inWpConfig = ]
+WP_TEMP_DIR___________: [value = ], [inWpConfig = ]
+********************************************************************************
+
+********************************************************************************
+CHUNK PARAMS:
+maxIteration__________: 0
+timeOut_______________: 5000
+throttling____________: 2
+rowsPerPage___________: 1000
+********************************************************************************
+
+CHUNK ACTION: CURRENT [cleanup_trans][][]
+[PHP ERR][E_WARNING] MSG:foreach() argument must be of type array|object, string given [CODE:2|FILE:C:\wamp64\www\migration\dup-installer\src\Core\Deploy\Database\DbCleanup.php|LINE:95]
+CLEAN OPTIONS [wp_options]
+	`option_name` = "duplicator_plugin_data_stats"
+	`option_name` LIKE "\_transient%"
+	`option_name` LIKE "\_site\_transient%"
+DATABASE OPTIONS DELETED [ROWS:    66]
+CHUNK ACTION: CURRENT [cleanup_extra][][]
+CLEANUP EXTRA
+	- SKIP DROP VIEWS
+	- SKIP DROP PROCS
+	- SKIP DROP FUNCS
+CHUNK ACTION: CURRENT [cleanup_packages][][]
+EMPTY PACKAGES TABLE
+CLEAN PACKAGES
+DATABASE PACKAGE DELETED [ROWS:     1]
+CHUNK ACTION: CURRENT [init][][]
+
+EVALUATE TABLE: "wp_actionscheduler_actions"______________________[ROWS:    72][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/var/www/html/wordpress" =========================> "C:/wamp64/www/migration"
+	SEARCH[urlnd]  2:"http://ec2-35-180-86-211.eu-west-3.compute.amazonaws.com/wordpress" => "http://localhost/migration"
+	CHUNK ACTION: CURRENT [search_replace][wp_actionscheduler_actions][0]
+
+EVALUATE TABLE: "wp_actionscheduler_claims"_______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_actionscheduler_groups"_______________________[ROWS:     2][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/var/www/html/wordpress" =========================> "C:/wamp64/www/migration"
+	SEARCH[urlnd]  2:"http://ec2-35-180-86-211.eu-west-3.compute.amazonaws.com/wordpress" => "http://localhost/migration"
+	CHUNK ACTION: CURRENT [search_replace][wp_actionscheduler_groups][0]
+
+EVALUATE TABLE: "wp_actionscheduler_logs"_________________________[ROWS:   210][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/var/www/html/wordpress" =========================> "C:/wamp64/www/migration"
+	SEARCH[urlnd]  2:"http://ec2-35-180-86-211.eu-west-3.compute.amazonaws.com/wordpress" => "http://localhost/migration"
+	CHUNK ACTION: CURRENT [search_replace][wp_actionscheduler_logs][0]
+
+EVALUATE TABLE: "wp_commentmeta"__________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_comments"_____________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/var/www/html/wordpress" =========================> "C:/wamp64/www/migration"
+	SEARCH[urlnd]  2:"http://ec2-35-180-86-211.eu-west-3.compute.amazonaws.com/wordpress" => "http://localhost/migration"
+	CHUNK ACTION: CURRENT [search_replace][wp_comments][0]
+
+EVALUATE TABLE: "wp_duplicator_packages"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_e_events"_____________________________________[ROWS:    10][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/var/www/html/wordpress" =========================> "C:/wamp64/www/migration"
+	SEARCH[urlnd]  2:"http://ec2-35-180-86-211.eu-west-3.compute.amazonaws.com/wordpress" => "http://localhost/migration"
+	CHUNK ACTION: CURRENT [search_replace][wp_e_events][0]
+
+EVALUATE TABLE: "wp_links"________________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_options"______________________________________[ROWS:   342][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/var/www/html/wordpress" =========================> "C:/wamp64/www/migration"
+	SEARCH[urlnd]  2:"http://ec2-35-180-86-211.eu-west-3.compute.amazonaws.com/wordpress" => "http://localhost/migration"
+	CHUNK ACTION: CURRENT [search_replace][wp_options][0]
+
+EVALUATE TABLE: "wp_postmeta"_____________________________________[ROWS:  4830][PG:   5][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/var/www/html/wordpress" =========================> "C:/wamp64/www/migration"
+	SEARCH[urlnd]  2:"http://ec2-35-180-86-211.eu-west-3.compute.amazonaws.com/wordpress" => "http://localhost/migration"
+	CHUNK ACTION: CURRENT [search_replace][wp_postmeta][0]
+	CHUNK ACTION: CURRENT [search_replace][wp_postmeta][1]
+	CHUNK ACTION: CURRENT [search_replace][wp_postmeta][2]
+	CHUNK ACTION: CURRENT [search_replace][wp_postmeta][3]
+	CHUNK ACTION: CURRENT [search_replace][wp_postmeta][4]
+
+EVALUATE TABLE: "wp_posts"________________________________________[ROWS:   771][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/var/www/html/wordpress" =========================> "C:/wamp64/www/migration"
+	SEARCH[urlnd]  2:"http://ec2-35-180-86-211.eu-west-3.compute.amazonaws.com/wordpress" => "http://localhost/migration"
+	CHUNK ACTION: CURRENT [search_replace][wp_posts][0]
+
+EVALUATE TABLE: "wp_termmeta"_____________________________________[ROWS:     4][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/var/www/html/wordpress" =========================> "C:/wamp64/www/migration"
+	SEARCH[urlnd]  2:"http://ec2-35-180-86-211.eu-west-3.compute.amazonaws.com/wordpress" => "http://localhost/migration"
+	CHUNK ACTION: CURRENT [search_replace][wp_termmeta][0]
+
+EVALUATE TABLE: "wp_terms"________________________________________[ROWS:    13][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/var/www/html/wordpress" =========================> "C:/wamp64/www/migration"
+	SEARCH[urlnd]  2:"http://ec2-35-180-86-211.eu-west-3.compute.amazonaws.com/wordpress" => "http://localhost/migration"
+	CHUNK ACTION: CURRENT [search_replace][wp_terms][0]
+
+EVALUATE TABLE: "wp_term_relationships"___________________________[ROWS:    38][PG:   1][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_term_taxonomy"________________________________[ROWS:    13][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/var/www/html/wordpress" =========================> "C:/wamp64/www/migration"
+	SEARCH[urlnd]  2:"http://ec2-35-180-86-211.eu-west-3.compute.amazonaws.com/wordpress" => "http://localhost/migration"
+	CHUNK ACTION: CURRENT [search_replace][wp_term_taxonomy][0]
+
+EVALUATE TABLE: "wp_usermeta"_____________________________________[ROWS:    42][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/var/www/html/wordpress" =========================> "C:/wamp64/www/migration"
+	SEARCH[urlnd]  2:"http://ec2-35-180-86-211.eu-west-3.compute.amazonaws.com/wordpress" => "http://localhost/migration"
+	CHUNK ACTION: CURRENT [search_replace][wp_usermeta][0]
+
+EVALUATE TABLE: "wp_users"________________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/var/www/html/wordpress" =========================> "C:/wamp64/www/migration"
+	SEARCH[urlnd]  2:"http://ec2-35-180-86-211.eu-west-3.compute.amazonaws.com/wordpress" => "http://localhost/migration"
+	CHUNK ACTION: CURRENT [search_replace][wp_users][0]
+
+EVALUATE TABLE: "wp_wpforms_payments"_____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wpforms_payment_meta"_________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wpforms_tasks_meta"___________________________[ROWS:    25][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/var/www/html/wordpress" =========================> "C:/wamp64/www/migration"
+	SEARCH[urlnd]  2:"http://ec2-35-180-86-211.eu-west-3.compute.amazonaws.com/wordpress" => "http://localhost/migration"
+	CHUNK ACTION: CURRENT [search_replace][wp_wpforms_tasks_meta][0]
+--------------------------------------
+SCANNED:	Tables:21 	|	 Rows:6336 	|	 Cells:40880 
+UPDATED:	Tables:4 	|	 Rows:1244 	|	 Cells:1679 
+ERRORS:		0 
+RUNTIME:	2.965200 sec
+CHUNK ACTION: CURRENT [rem_maintenance][][]
+
+====================================
+REMOVE MAINTENANCE MODE
+====================================
+MAINTENANCE MODE DISABLE
+CHUNK ACTION: CURRENT [config_update][][]
+SET CONFIG FILES
+Retained original entry wpconfig target:C:/wamp64/www/migration/wp-config.php
+New htaccess file created:C:/wamp64/www/migration/.htaccess
+
+====================================
+CONFIGURATION FILE UPDATES
+====================================
+	UPDATE ABSPATH "dirname(__FILE__) . '/'"
+	UPDATE WP_SITEURL "http://localhost/migration/"
+	UPDATE DB_NAME ""wordpress""
+	UPDATE DB_USER "** OBSCURED **"
+	UPDATE DB_PASSWORD "** OBSCURED **"
+	UPDATE DB_HOST ""localhost""
+	UPDATE DB_CHARSET "utf8mb4"
+	UPDATE DB_COLLATE ""
+	WP CONFIG UPDATE WP_DEBUG "false"
+	
+*** UPDATED WP CONFIG FILE ***
+
+====================================
+HTACCESS UPDATE
+====================================
+
+WEB SERVER CONFIGURATION FILE UPDATED:
+NO PERMALINK STRUCTURE FOUND: set htaccess without directives
+- Preparing .htaccess file with basic setup.
+HTACCESS FILE - Successfully updated the .htaccess file setting.
+
+====================================
+INDEX.PHP UPDATE
+====================================
+INDEX.PHP updated with new blog header "dirname(__FILE__) . '/wp-blog-header.php'"
+
+CHUNK ACTION: CURRENT [gen_update][][]
+
+====================================
+GENERAL UPDATES
+====================================
+
+====================================
+MANAGE PLUGINS
+====================================
+CHUNK ACTION: CURRENT [gen_clean][][]
+
+====================================
+GENERAL CLEANUP
+====================================
+RESET ALL USERS SESSION TOKENS
+MIGRATION INFO SET
+CHUNK ACTION: CURRENT [create_admin][][]
+
+====================================
+RESET USERS PASSWORD
+====================================
+CHUNK ACTION: CURRENT [notice_test][][]
+
+====================================
+CHECK FOR INDEX.HTML
+====================================
+NO INDEX.HTML WAS FOUND
+
+====================================
+NOTICES TEST
+====================================
+No General Notices Found
+
+CHUNK ACTION: CURRENT [cleanup_tmp_files][][]
+
+====================================
+CLEANUP TMP FILES
+====================================
+CHUNK ACTION: CURRENT [set_files_perms][][]
+
+====================================
+SET PARAMS PERMISSION
+====================================
+\n SKIP FOLDER PERMISSION AFTER EXTRACTION
+CHUNK ACTION: CURRENT [final_report][][]
+
+====================================
+FINAL REPORT NOTICES
+====================================
+
+STEP-3 COMPLETE @ 09:13:49 - RUNTIME: 3.2097 sec. 
+
+
+AJAX ACTION [webupdate] SUCCESS
+-------------------------
+
+LOG-TIME[C:\wamp64\www\migration\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [finalpre] START
+AJAX ACTION [finalpre] SUCCESS
+-------------------------
+
+LOG-TIME[C:\wamp64\www\migration\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [finalafter] START
+AJAX ACTION [finalafter] SUCCESS
+-------------------------
+
+LOG-TIME[C:\wamp64\www\migration\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+====================================
+FINAL REPORT NOTICES LIST
+====================================
+-----------------------
+[NOTICE] Warnings or notices on WordPress front-end tests!
+	SECTIONS: general
+	LONG MSG: SCRIPT FILE TEST: C:/wamp64/www/migration/index.php
+E_DEPRECATED Constant FILTER_SANITIZE_STRING is deprecated
+	FILE: C:\wamp64\www\migration\wp-content\plugins\astra-sites\admin\bsf-analytics\class-bsf-analytics-stats.php[71]
+	--- TRACE ---
+	CLASS___: BSF_Analytics_Stats->get_default_statsFILE: C:\wamp64\www\migration\wp-content\plugins\astra-sites\admin\bsf-analytics\class-bsf-analytics-stats.php[57]
+	CLASS___: BSF_Analytics_Stats->get_statsFILE: C:\wamp64\www\migration\wp-content\plugins\astra-sites\admin\bsf-analytics\class-bsf-analytics.php[137]
+	CLASS___: BSF_Analytics->send           FILE: C:\wamp64\www\migration\wp-content\plugins\astra-sites\admin\bsf-analytics\class-bsf-analytics.php[489]
+	CLASS___: BSF_Analytics->maybe_track_analyticsFILE: C:\wamp64\www\migration\wp-includes\class-wp-hook.php[310]
+	CLASS___: WP_Hook->apply_filters        FILE: C:\wamp64\www\migration\wp-includes\class-wp-hook.php[334]
+	CLASS___: WP_Hook->do_action            FILE: C:\wamp64\www\migration\wp-includes\plugin.php[517]
+	FUNCTION: do_action                     FILE: C:\wamp64\www\migration\wp-settings.php[632]
+	FUNCTION: require_once                  FILE: C:\wamp64\www\migration\wp-config.php[97]
+	FUNCTION: require_once                  FILE: C:\wamp64\www\migration\wp-load.php[50]
+	FUNCTION: require_once                  FILE: C:\wamp64\www\migration\wp-blog-header.php[13]
+	FUNCTION: require                       FILE: C:\wamp64\www\migration\index.php[17]
+	FUNCTION: require_once                  FILE: C:\wamp64\www\migration\wp-content\wp_test_script_2d2c74a-27092231.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://duplicator.com/knowledge-base/ 
+E_DEPRECATED Creation of dynamic property Elementor\Includes\Elements\Container::$logical_dimensions_inline_start is deprecated
+	FILE: C:\wamp64\www\migration\wp-content\plugins\elementor\includes\elements\container.php[42]
+	--- TRACE ---
+	CLASS___: Elementor\Includes\Elements\Container->__constructFILE: C:\wamp64\www\migration\wp-content\plugins\elementor\includes\managers\elements.php[257]
+	CLASS___: Elementor\Elements_Manager->init_elementsFILE: C:\wamp64\www\migration\wp-content\plugins\elementor\includes\managers\elements.php[192]
+	CLASS___: Elementor\Elements_Manager->get_element_typesFILE: C:\wamp64\www\migration\wp-content\plugins\elementor\includes\managers\elements.php[76]
+	CLASS___: Elementor\Elements_Manager->create_element_instanceFILE: C:\wamp64\www\migration\wp-content\plugins\elementor\core\files\css\post.php[172]
+	CLASS___: Elementor\Core\Files\CSS\Post->render_cssFILE: C:\wamp64\www\migration\wp-content\plugins\elementor\core\files\css\base.php[677]
+	CLASS___: Elementor\Core\Files\CSS\Base->parse_contentFILE: C:\wamp64\www\migration\wp-content\plugins\elementor\core\files\base.php[180]
+	CLASS___: Elementor\Core\Files\Base->update_fileFILE: C:\wamp64\www\migration\wp-content\plugins\elementor\core\files\css\base.php[130]
+	CLASS___: Elementor\Core\Files\CSS\Base->updateFILE: C:\wamp64\www\migration\wp-content\plugins\elementor\core\files\css\base.php[226]
+	CLASS___: Elementor\Core\Files\CSS\Base->enqueueFILE: C:\wamp64\www\migration\wp-content\plugins\elementor\core\files\css\post.php[201]
+	CLASS___: Elementor\Core\Files\CSS\Post->enqueueFILE: C:\wamp64\www\migration\wp-content\plugins\elementor\core\dynamic-tags\manager.php[488]
+	CLASS___: Elementor\Core\DynamicTags\Manager->after_enqueue_post_cssFILE: C:\wamp64\www\migration\wp-includes\class-wp-hook.php[310]
+	CLASS___: WP_Hook->apply_filters        FILE: C:\wamp64\www\migration\wp-includes\class-wp-hook.php[334]
+	CLASS___: WP_Hook->do_action            FILE: C:\wamp64\www\migration\wp-includes\plugin.php[517]
+	FUNCTION: do_action                     FILE: C:\wamp64\www\migration\wp-content\plugins\elementor\core\files\css\base.php[273]
+	CLASS___: Elementor\Core\Files\CSS\Base->enqueueFILE: C:\wamp64\www\migration\wp-content\plugins\elementor\core\files\css\post.php[201]
+	CLASS___: Elementor\Core\Files\CSS\Post->enqueueFILE: C:\wamp64\www\migration\wp-content\plugins\elementor\includes\frontend.php[676]
+	CLASS___: Elementor\Frontend->enqueue_stylesFILE: C:\wamp64\www\migration\wp-includes\class-wp-hook.php[310]
+	CLASS___: WP_Hook->apply_filters        FILE: C:\wamp64\www\migration\wp-includes\class-wp-hook.php[334]
+	CLASS___: WP_Hook->do_action            FILE: C:\wamp64\www\migration\wp-includes\plugin.php[517]
+	FUNCTION: do_action                     FILE: C:\wamp64\www\migration\wp-includes\script-loader.php[2225]
+	FUNCTION: wp_enqueue_scripts            FILE: C:\wamp64\www\migration\wp-includes\class-wp-hook.php[310]
+	CLASS___: WP_Hook->apply_filters        FILE: C:\wamp64\www\migration\wp-includes\class-wp-hook.php[334]
+	CLASS___: WP_Hook->do_action            FILE: C:\wamp64\www\migration\wp-includes\plugin.php[517]
+	FUNCTION: do_action                     FILE: C:\wamp64\www\migration\wp-includes\general-template.php[3053]
+	FUNCTION: wp_head                       FILE: C:\wamp64\www\migration\wp-content\themes\astra\header.php[31]
+	FUNCTION: require_once                  FILE: C:\wamp64\www\migration\wp-includes\template.php[785]
+	FUNCTION: load_template                 FILE: C:\wamp64\www\migration\wp-includes\template.php[720]
+	FUNCTION: locate_template               FILE: C:\wamp64\www\migration\wp-includes\general-template.php[48]
+	FUNCTION: get_header                    FILE: C:\wamp64\www\migration\wp-content\themes\astra\page.php[20]
+	FUNCTION: include                       FILE: C:\wamp64\www\migration\wp-includes\template-loader.php[106]
+	FUNCTION: require_once                  FILE: C:\wamp64\www\migration\wp-blog-header.php[19]
+	FUNCTION: require                       FILE: C:\wamp64\www\migration\index.php[17]
+	FUNCTION: require_once                  FILE: C:\wamp64\www\migration\wp-content\wp_test_script_2d2c74a-27092231.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://duplicator.com/knowledge-base/ 
+E_DEPRECATED Creation of dynamic property Elementor\Includes\Elements\Container::$logical_dimensions_inline_end is deprecated
+	FILE: C:\wamp64\www\migration\wp-content\plugins\elementor\includes\elements\container.php[43]
+	--- TRACE ---
+	CLASS___: Elementor\Includes\Elements\Container->__constructFILE: C:\wamp64\www\migration\wp-content\plugins\elementor\includes\managers\elements.php[257]
+	CLASS___: Elementor\Elements_Manager->init_elementsFILE: C:\wamp64\www\migration\wp-content\plugins\elementor\includes\managers\elements.php[192]
+	CLASS___: Elementor\Elements_Manager->get_element_typesFILE: C:\wamp64\www\migration\wp-content\plugins\elementor\includes\managers\elements.php[76]
+	CLASS___: Elementor\Elements_Manager->create_element_instanceFILE: C:\wamp64\www\migration\wp-content\plugins\elementor\core\files\css\post.php[172]
+	CLASS___: Elementor\Core\Files\CSS\Post->render_cssFILE: C:\wamp64\www\migration\wp-content\plugins\elementor\core\files\css\base.php[677]
+	CLASS___: Elementor\Core\Files\CSS\Base->parse_contentFILE: C:\wamp64\www\migration\wp-content\plugins\elementor\core\files\base.php[180]
+	CLASS___: Elementor\Core\Files\Base->update_fileFILE: C:\wamp64\www\migration\wp-content\plugins\elementor\core\files\css\base.php[130]
+	CLASS___: Elementor\Core\Files\CSS\Base->updateFILE: C:\wamp64\www\migration\wp-content\plugins\elementor\core\files\css\base.php[226]
+	CLASS___: Elementor\Core\Files\CSS\Base->enqueueFILE: C:\wamp64\www\migration\wp-content\plugins\elementor\core\files\css\post.php[201]
+	CLASS___: Elementor\Core\Files\CSS\Post->enqueueFILE: C:\wamp64\www\migration\wp-content\plugins\elementor\core\dynamic-tags\manager.php[488]
+	CLASS___: Elementor\Core\DynamicTags\Manager->after_enqueue_post_cssFILE: C:\wamp64\www\migration\wp-includes\class-wp-hook.php[310]
+	CLASS___: WP_Hook->apply_filters        FILE: C:\wamp64\www\migration\wp-includes\class-wp-hook.php[334]
+	CLASS___: WP_Hook->do_action            FILE: C:\wamp64\www\migration\wp-includes\plugin.php[517]
+	FUNCTION: do_action                     FILE: C:\wamp64\www\migration\wp-content\plugins\elementor\core\files\css\base.php[273]
+	CLASS___: Elementor\Core\Files\CSS\Base->enqueueFILE: C:\wamp64\www\migration\wp-content\plugins\elementor\core\files\css\post.php[201]
+	CLASS___: Elementor\Core\Files\CSS\Post->enqueueFILE: C:\wamp64\www\migration\wp-content\plugins\elementor\includes\frontend.php[676]
+	CLASS___: Elementor\Frontend->enqueue_stylesFILE: C:\wamp64\www\migration\wp-includes\class-wp-hook.php[310]
+	CLASS___: WP_Hook->apply_filters        FILE: C:\wamp64\www\migration\wp-includes\class-wp-hook.php[334]
+	CLASS___: WP_Hook->do_action            FILE: C:\wamp64\www\migration\wp-includes\plugin.php[517]
+	FUNCTION: do_action                     FILE: C:\wamp64\www\migration\wp-includes\script-loader.php[2225]
+	FUNCTION: wp_enqueue_scripts            FILE: C:\wamp64\www\migration\wp-includes\class-wp-hook.php[310]
+	CLASS___: WP_Hook->apply_filters        FILE: C:\wamp64\www\migration\wp-includes\class-wp-hook.php[334]
+	CLASS___: WP_Hook->do_action            FILE: C:\wamp64\www\migration\wp-includes\plugin.php[517]
+	FUNCTION: do_action                     FILE: C:\wamp64\www\migration\wp-includes\general-template.php[3053]
+	FUNCTION: wp_head                       FILE: C:\wamp64\www\migration\wp-content\themes\astra\header.php[31]
+	FUNCTION: require_once                  FILE: C:\wamp64\www\migration\wp-includes\template.php[785]
+	FUNCTION: load_template                 FILE: C:\wamp64\www\migration\wp-includes\template.php[720]
+	FUNCTION: locate_template               FILE: C:\wamp64\www\migration\wp-includes\general-template.php[48]
+	FUNCTION: get_header                    FILE: C:\wamp64\www\migration\wp-content\themes\astra\page.php[20]
+	FUNCTION: include                       FILE: C:\wamp64\www\migration\wp-includes\template-loader.php[106]
+	FUNCTION: require_once                  FILE: C:\wamp64\www\migration\wp-blog-header.php[19]
+	FUNCTION: require                       FILE: C:\wamp64\www\migration\index.php[17]
+	FUNCTION: require_once                  FILE: C:\wamp64\www\migration\wp-content\wp_test_script_2d2c74a-27092231.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://duplicator.com/knowledge-base/ 
+E_DEPRECATED Creation of dynamic property Elementor\Includes\Elements\Container::$logical_dimensions_inline_start is deprecated
+	FILE: C:\wamp64\www\migration\wp-content\plugins\elementor\includes\elements\container.php[42]
+	--- TRACE ---
+	CLASS___: Elementor\Includes\Elements\Container->__constructFILE: C:\wamp64\www\migration\wp-content\plugins\elementor\includes\managers\elements.php[89]
+	CLASS___: Elementor\Elements_Manager->create_element_instanceFILE: C:\wamp64\www\migration\wp-content\plugins\elementor\includes\base\element-base.php[361]
+	CLASS___: Elementor\Element_Base->add_childFILE: C:\wamp64\www\migration\wp-content\plugins\elementor\includes\base\element-base.php[1480]
+	CLASS___: Elementor\Element_Base->init_childrenFILE: C:\wamp64\www\migration\wp-content\plugins\elementor\includes\base\element-base.php[300]
+	CLASS___: Elementor\Element_Base->get_childrenFILE: C:\wamp64\www\migration\wp-content\plugins\elementor\core\dynamic-tags\dynamic-css.php[35]
+	CLASS___: Elementor\Core\DynamicTags\Dynamic_CSS->render_stylesFILE: C:\wamp64\www\migration\wp-content\plugins\elementor\core\dynamic-tags\dynamic-css.php[36]
+	CLASS___: Elementor\Core\DynamicTags\Dynamic_CSS->render_stylesFILE: C:\wamp64\www\migration\wp-content\plugins\elementor\core\files\css\post.php[178]
+	CLASS___: Elementor\Core\Files\CSS\Post->render_cssFILE: C:\wamp64\www\migration\wp-content\plugins\elementor\core\files\css\base.php[677]
+	CLASS___: Elementor\Core\Files\CSS\Base->parse_contentFILE: C:\wamp64\www\migration\wp-content\plugins\elementor\core\files\base.php[180]
+	CLASS___: Elementor\Core\Files\Base->update_fileFILE: C:\wamp64\www\migration\wp-content\plugins\elementor\core\files\css\base.php[130]
+	CLASS___: Elementor\Core\Files\CSS\Base->updateFILE: C:\wamp64\www\migration\wp-content\plugins\elementor\core\files\css\base.php[226]
+	CLASS___: Elementor\Core\Files\CSS\Base->enqueueFILE: C:\wamp64\www\migration\wp-content\plugins\elementor\core\files\css\post.php[201]
+	CLASS___: Elementor\Core\Files\CSS\Post->enqueueFILE: C:\wamp64\www\migration\wp-content\plugins\elementor\core\dynamic-tags\manager.php[488]
+	CLASS___: Elementor\Core\DynamicTags\Manager->after_enqueue_post_cssFILE: C:\wamp64\www\migration\wp-includes\class-wp-hook.php[310]
+	CLASS___: WP_Hook->apply_filters        FILE: C:\wamp64\www\migration\wp-includes\class-wp-hook.php[334]
+	CLASS___: WP_Hook->do_action            FILE: C:\wamp64\www\migration\wp-includes\plugin.php[517]
+	FUNCTION: do_action                     FILE: C:\wamp64\www\migration\wp-content\plugins\elementor\core\files\css\base.php[273]
+	CLASS___: Elementor\Core\Files\CSS\Base->enqueueFILE: C:\wamp64\www\migration\wp-content\plugins\elementor\core\files\css\post.php[201]
+	CLASS___: Elementor\Core\Files\CSS\Post->enqueueFILE: C:\wamp64\www\migration\wp-content\plugins\elementor\includes\frontend.php[676]
+	CLASS___: Elementor\Frontend->enqueue_stylesFILE: C:\wamp64\www\migration\wp-includes\class-wp-hook.php[310]
+	CLASS___: WP_Hook->apply_filters        FILE: C:\wamp64\www\migration\wp-includes\class-wp-hook.php[334]
+	CLASS___: WP_Hook->do_action            FILE: C:\wamp64\www\migration\wp-includes\plugin.php[517]
+	FUNCTION: do_action                     FILE: C:\wamp64\www\migration\wp-includes\script-loader.php[2225]
+	FUNCTION: wp_enqueue_scripts            FILE: C:\wamp64\www\migration\wp-includes\class-wp-hook.php[310]
+	CLASS___: WP_Hook->apply_filters        FILE: C:\wamp64\www\migration\wp-includes\class-wp-hook.php[334]
+	CLASS___: WP_Hook->do_action            FILE: C:\wamp64\www\migration\wp-includes\plugin.php[517]
+	FUNCTION: do_action                     FILE: C:\wamp64\www\migration\wp-includes\general-template.php[3053]
+	FUNCTION: wp_head                       FILE: C:\wamp64\www\migration\wp-content\themes\astra\header.php[31]
+	FUNCTION: require_once                  FILE: C:\wamp64\www\migration\wp-includes\template.php[785]
+	FUNCTION: load_template                 FILE: C:\wamp64\www\migration\wp-includes\template.php[720]
+	FUNCTION: locate_template               FILE: C:\wamp64\www\migration\wp-includes\general-template.php[48]
+	FUNCTION: get_header                    FILE: C:\wamp64\www\migration\wp-content\themes\astra\page.php[20]
+	FUNCTION: include                       FILE: C:\wamp64\www\migration\wp-includes\template-loader.php[106]
+	FUNCTION: require_once                  FILE: C:\wamp64\www\migration\wp-blog-header.php[19]
+	FUNCTION: require                       FILE: C:\wamp64\www\migration\index.php[17]
+	FUNCTION: require_once                  FILE: C:\wamp64\www\migration\wp-content\wp_test_script_2d2c74a-27092231.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://duplicator.com/knowledge-base/ 
+E_DEPRECATED Creation of dynamic property Elementor\Includes\Elements\Container::$logical_dimensions_inline_end is deprecated
+	FILE: C:\wamp64\www\migration\wp-content\plugins\elementor\includes\elements\container.php[43]
+	--- TRACE ---
+	CLASS___: Elementor\Includes\Elements\Container->__constructFILE: C:\wamp64\www\migration\wp-content\plugins\elementor\includes\managers\elements.php[89]
+	CLASS___: Elementor\Elements_Manager->create_element_instanceFILE: C:\wamp64\www\migration\wp-content\plugins\elementor\includes\base\element-base.php[361]
+	CLASS___: Elementor\Element_Base->add_childFILE: C:\wamp64\www\migration\wp-content\plugins\elementor\includes\base\element-base.php[1480]
+	CLASS___: Elementor\Element_Base->init_childrenFILE: C:\wamp64\www\migration\wp-content\plugins\elementor\includes\base\element-base.php[300]
+	CLASS___: Elementor\Element_Base->get_childrenFILE: C:\wamp64\www\migration\wp-content\plugins\elementor\core\dynamic-tags\dynamic-css.php[35]
+	CLASS___: Elementor\Core\DynamicTags\Dynamic_CSS->render_stylesFILE: C:\wamp64\www\migration\wp-content\plugins\elementor\core\dynamic-tags\dynamic-css.php[36]
+	CLASS___: Elementor\Core\DynamicTags\Dynamic_CSS->render_stylesFILE: C:\wamp64\www\migration\wp-content\plugins\elementor\core\files\css\post.php[178]
+	CLASS___: Elementor\Core\Files\CSS\Post->render_cssFILE: C:\wamp64\www\migration\wp-content\plugins\elementor\core\files\css\base.php[677]
+	CLASS___: Elementor\Core\Files\CSS\Base->parse_contentFILE: C:\wamp64\www\migration\wp-content\plugins\elementor\core\files\base.php[180]
+	CLASS___: Elementor\Core\Files\Base->update_fileFILE: C:\wamp64\www\migration\wp-content\plugins\elementor\core\files\css\base.php[130]
+	CLASS___: Elementor\Core\Files\CSS\Base->updateFILE: C:\wamp64\www\migration\wp-content\plugins\elementor\core\files\css\base.php[226]
+	CLASS___: Elementor\Core\Files\CSS\Base->enqueueFILE: C:\wamp64\www\migration\wp-content\plugins\elementor\core\files\css\post.php[201]
+	CLASS___: Elementor\Core\Files\CSS\Post->enqueueFILE: C:\wamp64\www\migration\wp-content\plugins\elementor\core\dynamic-tags\manager.php[488]
+	CLASS___: Elementor\Core\DynamicTags\Manager->after_enqueue_post_cssFILE: C:\wamp64\www\migration\wp-includes\class-wp-hook.php[310]
+	CLASS___: WP_Hook->apply_filters        FILE: C:\wamp64\www\migration\wp-includes\class-wp-hook.php[334]
+	CLASS___: WP_Hook->do_action            FILE: C:\wamp64\www\migration\wp-includes\plugin.php[517]
+	FUNCTION: do_action                     FILE: C:\wamp64\www\migration\wp-content\plugins\elementor\core\files\css\base.php[273]
+	CLASS___: Elementor\Core\Files\CSS\Base->enqueueFILE: C:\wamp64\www\migration\wp-content\plugins\elementor\core\files\css\post.php[201]
+	CLASS___: Elementor\Core\Files\CSS\Post->enqueueFILE: C:\wamp64\www\migration\wp-content\plugins\elementor\includes\frontend.php[676]
+	CLASS___: Elementor\Frontend->enqueue_stylesFILE: C:\wamp64\www\migration\wp-includes\class-wp-hook.php[310]
+	CLASS___: WP_Hook->apply_filters        FILE: C:\wamp64\www\migration\wp-includes\class-wp-hook.php[334]
+	CLASS___: WP_Hook->do_action            FILE: C:\wamp64\www\migration\wp-includes\plugin.php[517]
+	FUNCTION: do_action                     FILE: C:\wamp64\www\migration\wp-includes\script-loader.php[2225]
+	FUNCTION: wp_enqueue_scripts            FILE: C:\wamp64\www\migration\wp-includes\class-wp-hook.php[310]
+	CLASS___: WP_Hook->apply_filters        FILE: C:\wamp64\www\migration\wp-includes\class-wp-hook.php[334]
+	CLASS___: WP_Hook->do_action            FILE: C:\wamp64\www\migration\wp-includes\plugin.php[517]
+	FUNCTION: do_action                     FILE: C:\wamp64\www\migration\wp-includes\general-template.php[3053]
+	FUNCTION: wp_head                       FILE: C:\wamp64\www\migration\wp-content\themes\astra\header.php[31]
+	FUNCTION: require_once                  FILE: C:\wamp64\www\migration\wp-includes\template.php[785]
+	FUNCTION: load_template                 FILE: C:\wamp64\www\migration\wp-includes\template.php[720]
+	FUNCTION: locate_template               FILE: C:\wamp64\www\migration\wp-includes\general-template.php[48]
+	FUNCTION: get_header                    FILE: C:\wamp64\www\migration\wp-content\themes\astra\page.php[20]
+	FUNCTION: include                       FILE: C:\wamp64\www\migration\wp-includes\template-loader.php[106]
+	FUNCTION: require_once                  FILE: C:\wamp64\www\migration\wp-blog-header.php[19]
+	FUNCTION: require                       FILE: C:\wamp64\www\migration\index.php[17]
+	FUNCTION: require_once                  FILE: C:\wamp64\www\migration\wp-content\wp_test_script_2d2c74a-27092231.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://duplicator.com/knowledge-base/ 
+E_DEPRECATED Creation of dynamic property Elementor\Includes\Elements\Container::$logical_dimensions_inline_start is deprecated
+	FILE: C:\wamp64\www\migration\wp-content\plugins\elementor\includes\elements\container.php[42]
+	--- TRACE ---
+	CLASS___: Elementor\Includes\Elements\Container->__constructFILE: C:\wamp64\www\migration\wp-content\plugins\elementor\includes\managers\elements.php[89]
+	CLASS___: Elementor\Elements_Manager->create_element_instanceFILE: C:\wamp64\www\migration\wp-content\plugins\elementor\includes\base\element-base.php[361]
+	CLASS___: Elementor\Element_Base->add_childFILE: C:\wamp64\www\migration\wp-content\plugins\elementor\includes\base\element-base.php[1480]
+	CLASS___: Elementor\Element_Base->init_childrenFILE: C:\wamp64\www\migration\wp-content\plugins\elementor\includes\base\element-base.php[300]
+	CLASS___: Elementor\Element_Base->get_childrenFILE: C:\wamp64\www\migration\wp-content\plugins\elementor\core\dynamic-tags\dynamic-css.php[35]
+	CLASS___: Elementor\Core\DynamicTags\Dynamic_CSS->render_stylesFILE: C:\wamp64\www\migration\wp-content\plugins\elementor\core\dynamic-tags\dynamic-css.php[36]
+	CLASS___: Elementor\Core\DynamicTags\Dynamic_CSS->render_stylesFILE: C:\wamp64\www\migration\wp-content\plugins\elementor\core\files\css\post.php[178]
+	CLASS___: Elementor\Core\Files\CSS\Post->render_cssFILE: C:\wamp64\www\migration\wp-content\plugins\elementor\core\files\css\base.php[677]
+	CLASS___: Elementor\Core\Files\CSS\Base->parse_contentFILE: C:\wamp64\www\migration\wp-content\plugins\elementor\core\files\base.php[180]
+	CLASS___: Elementor\Core\Files\Base->update_fileFILE: C:\wamp64\www\migration\wp-content\plugins\elementor\core\files\css\base.php[130]
+	CLASS___: Elementor\Core\Files\CSS\Base->updateFILE: C:\wamp64\www\migration\wp-content\plugins\elementor\core\files\css\base.php[226]
+	CLASS___: Elementor\Core\Files\CSS\Base->enqueueFILE: C:\wamp64\www\migration\wp-content\plugins\elementor\core\files\css\post.php[201]
+	CLASS___: Elementor\Core\Files\CSS\Post->enqueueFILE: C:\wamp64\www\migration\wp-content\plugins\elementor\core\dynamic-tags\manager.php[488]
+	CLASS___: Elementor\Core\DynamicTags\Manager->after_enqueue_post_cssFILE: C:\wamp64\www\migration\wp-includes\class-wp-hook.php[310]
+	CLASS___: WP_Hook->apply_filters        FILE: C:\wamp64\www\migration\wp-includes\class-wp-hook.php[334]
+	CLASS___: WP_Hook->do_action            FILE: C:\wamp64\www\migration\wp-includes\plugin.php[517]
+	FUNCTION: do_action                     FILE: C:\wamp64\www\migration\wp-content\plugins\elementor\core\files\css\base.php[273]
+	CLASS___: Elementor\Core\Files\CSS\Base->enqueueFILE: C:\wamp64\www\migration\wp-content\plugins\elementor\core\files\css\post.php[201]
+	CLASS___: Elementor\Core\Files\CSS\Post->enqueueFILE: C:\wamp64\www\migration\wp-content\plugins\elementor\includes\frontend.php[676]
+	CLASS___: Elementor\Frontend->enqueue_stylesFILE: C:\wamp64\www\migration\wp-includes\class-wp-hook.php[310]
+	CLASS___: WP_Hook->apply_filters        FILE: C:\wamp64\www\migration\wp-includes\class-wp-hook.php[334]
+	CLASS___: WP_Hook->do_action            FILE: C:\wamp64\www\migration\wp-includes\plugin.php[517]
+	FUNCTION: do_action                     FILE: C:\wamp64\www\migration\wp-includes\script-loader.php[2225]
+	FUNCTION: wp_enqueue_scripts            FILE: C:\wamp64\www\migration\wp-includes\class-wp-hook.php[310]
+	CLASS___: WP_Hook->apply_filters        FILE: C:\wamp64\www\migration\wp-includes\class-wp-hook.php[334]
+	CLASS___: WP_Hook->do_action            FILE: C:\wamp64\www\migration\wp-includes\plugin.php[517]
+	FUNCTION: do_action                     FILE: C:\wamp64\www\migration\wp-includes\general-template.php[3053]
+	FUNCTION: wp_head                       FILE: C:\wamp64\www\migration\wp-content\themes\astra\header.php[31]
+	FUNCTION: require_once                  FILE: C:\wamp64\www\migration\wp-includes\template.php[785]
+	FUNCTION: load_template                 FILE: C:\wamp64\www\migration\wp-includes\template.php[720]
+	FUNCTION: locate_template               FILE: C:\wamp64\www\migration\wp-includes\general-template.php[48]
+	FUNCTION: get_header                    FILE: C:\wamp64\www\migration\wp-content\themes\astra\page.php[20]
+	FUNCTION: include                       FILE: C:\wamp64\www\migration\wp-includes\template-loader.php[106]
+	FUNCTION: require_once                  FILE: C:\wamp64\www\migration\wp-blog-header.php[19]
+	FUNCTION: require                       FILE: C:\wamp64\www\migration\index.php[17]
+	FUNCTION: require_once                  FILE: C:\wamp64\www\migration\wp-content\wp_test_script_2d2c74a-27092231.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://duplicator.com/knowledge-base/ 
+E_DEPRECATED Creation of dynamic property Elementor\Includes\Elements\Container::$logical_dimensions_inline_end is deprecated
+	FILE: C:\wamp64\www\migration\wp-content\plugins\elementor\includes\elements\container.php[43]
+	--- TRACE ---
+	CLASS___: Elementor\Includes\Elements\Container->__constructFILE: C:\wamp64\www\migration\wp-content\plugins\elementor\includes\managers\elements.php[89]
+	CLASS___: Elementor\Elements_Manager->create_element_instanceFILE: C:\wamp64\www\migration\wp-content\plugins\elementor\includes\base\element-base.php[361]
+	CLASS___: Elementor\Element_Base->add_childFILE: C:\wamp64\www\migration\wp-content\plugins\elementor\includes\base\element-base.php[1480]
+	CLASS___: Elementor\Element_Base->init_childrenFILE: C:\wamp64\www\migration\wp-content\plugins\elementor\includes\base\element-base.php[300]
+	CLASS___: Elementor\Element_Base->get_childrenFILE: C:\wamp64\www\migration\wp-content\plugins\elementor\core\dynamic-tags\dynamic-css.php[35]
+	CLASS___: Elementor\Core\DynamicTags\Dynamic_CSS->render_stylesFILE: C:\wamp64\www\migration\wp-content\plugins\elementor\core\dynamic-tags\dynamic-css.php[36]
+	CLASS___: Elementor\Core\DynamicTags\Dynamic_CSS->render_stylesFILE: C:\wamp64\www\migration\wp-content\plugins\elementor\core\files\css\post.php[178]
+	CLASS___: Elementor\Core\Files\CSS\Post->render_cssFILE: C:\wamp64\www\migration\wp-content\plugins\elementor\core\files\css\base.php[677]
+	CLASS___: Elementor\Core\Files\CSS\Base->parse_contentFILE: C:\wamp64\www\migration\wp-content\plugins\elementor\core\files\base.php[180]
+	CLASS___: Elementor\Core\Files\Base->update_fileFILE: C:\wamp64\www\migration\wp-content\plugins\elementor\core\files\css\base.php[130]
+	CLASS___: Elementor\Core\Files\CSS\Base->updateFILE: C:\wamp64\www\migration\wp-content\plugins\elementor\core\files\css\base.php[226]
+	CLASS___: Elementor\Core\Files\CSS\Base->enqueueFILE: C:\wamp64\www\migration\wp-content\plugins\elementor\core\files\css\post.php[201]
+	CLASS___: Elementor\Core\Files\CSS\Post->enqueueFILE: C:\wamp64\www\migration\wp-content\plugins\elementor\core\dynamic-tags\manager.php[488]
+	CLASS___: Elementor\Core\DynamicTags\Manager->after_enqueue_post_cssFILE: C:\wamp64\www\migration\wp-includes\class-wp-hook.php[310]
+	CLASS___: WP_Hook->apply_filters        FILE: C:\wamp64\www\migration\wp-includes\class-wp-hook.php[334]
+	CLASS___: WP_Hook->do_action            FILE: C:\wamp64\www\migration\wp-includes\plugin.php[517]
+	FUNCTION: do_action                     FILE: C:\wamp64\www\migration\wp-content\plugins\elementor\core\files\css\base.php[273]
+	CLASS___: Elementor\Core\Files\CSS\Base->enqueueFILE: C:\wamp64\www\migration\wp-content\plugins\elementor\core\files\css\post.php[201]
+	CLASS___: Elementor\Core\Files\CSS\Post->enqueueFILE: C:\wamp64\www\migration\wp-content\plugins\elementor\includes\frontend.php[676]
+	CLASS___: Elementor\Frontend->enqueue_stylesFILE: C:\wamp64\www\migration\wp-includes\class-wp-hook.php[310]
+	CLASS___: WP_Hook->apply_filters        FILE: C:\wamp64\www\migration\wp-includes\class-wp-hook.php[334]
+	CLASS___: WP_Hook->do_action            FILE: C:\wamp64\www\migration\wp-includes\plugin.php[517]
+	FUNCTION: do_action                     FILE: C:\wamp64\www\migration\wp-includes\script-loader.php[2225]
+	FUNCTION: wp_enqueue_scripts            FILE: C:\wamp64\www\migration\wp-includes\class-wp-hook.php[310]
+	CLASS___: WP_Hook->apply_filters        FILE: C:\wamp64\www\migration\wp-includes\class-wp-hook.php[334]
+	CLASS___: WP_Hook->do_action            FILE: C:\wamp64\www\migration\wp-includes\plugin.php[517]
+	FUNCTION: do_action                     FILE: C:\wamp64\www\migration\wp-includes\general-template.php[3053]
+	FUNCTION: wp_head                       FILE: C:\wamp64\www\migration\wp-content\themes\astra\header.php[31]
+	FUNCTION: require_once                  FILE: C:\wamp64\www\migration\wp-includes\template.php[785]
+	FUNCTION: load_template                 FILE: C:\wamp64\www\migration\wp-includes\template.php[720]
+	FUNCTION: locate_template               FILE: C:\wamp64\www\migration\wp-includes\general-template.php[48]
+	FUNCTION: get_header                    FILE: C:\wamp64\www\migration\wp-content\themes\astra\page.php[20]
+	FUNCTION: include                       FILE: C:\wamp64\www\migration\wp-includes\template-loader.php[106]
+	FUNCTION: require_once                  FILE: C:\wamp64\www\migration\wp-blog-header.php[19]
+	FUNCTION: require                       FILE: C:\wamp64\www\migration\index.php[17]
+	FUNCTION: require_once                  FILE: C:\wamp64\www\migration\wp-content\wp_test_script_2d2c74a-27092231.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://duplicator.com/knowledge-base/ 
+E_DEPRECATED Creation of dynamic property Elementor\Includes\Elements\Container::$logical_dimensions_inline_start is deprecated
+	FILE: C:\wamp64\www\migration\wp-content\plugins\elementor\includes\elements\container.php[42]
+	--- TRACE ---
+	CLASS___: Elementor\Includes\Elements\Container->__constructFILE: C:\wamp64\www\migration\wp-content\plugins\elementor\includes\managers\elements.php[89]
+	CLASS___: Elementor\Elements_Manager->create_element_instanceFILE: C:\wamp64\www\migration\wp-content\plugins\elementor\includes\base\element-base.php[361]
+	CLASS___: Elementor\Element_Base->add_childFILE: C:\wamp64\www\migration\wp-content\plugins\elementor\includes\base\element-base.php[1480]
+	CLASS___: Elementor\Element_Base->init_childrenFILE: C:\wamp64\www\migration\wp-content\plugins\elementor\includes\base\element-base.php[300]
+	CLASS___: Elementor\Element_Base->get_childrenFILE: C:\wamp64\www\migration\wp-content\plugins\elementor\core\dynamic-tags\dynamic-css.php[35]
+	CLASS___: Elementor\Core\DynamicTags\Dynamic_CSS->render_stylesFILE: C:\wamp64\www\migration\wp-content\plugins\elementor\core\dynamic-tags\dynamic-css.php[36]
+	CLASS___: Elementor\Core\DynamicTags\Dynamic_CSS->render_stylesFILE: C:\wamp64\www\migration\wp-content\plugins\elementor\core\dynamic-tags\dynamic-css.php[36]
+	CLASS___: Elementor\Core\DynamicTags\Dynamic_CSS->render_stylesFILE: C:\wamp64\www\migration\wp-content\plugins\elementor\core\files\css\post.php[178]
+	CLASS___: Elementor\Core\Files\CSS\Post->render_cssFILE: C:\wamp64\www\migration\wp-content\plugins\elementor\core\files\css\base.php[677]
+	CLASS___: Elementor\Core\Files\CSS\Base->parse_contentFILE: C:\wamp64\www\migration\wp-content\plugins\elementor\core\files\base.php[180]
+	CLASS___: Elementor\Core\Files\Base->update_fileFILE: C:\wamp64\www\migration\wp-content\plugins\elementor\core\files\css\base.php[130]
+	CLASS___: Elementor\Core\Files\CSS\Base->updateFILE: C:\wamp64\www\migration\wp-content\plugins\elementor\core\files\css\base.php[226]
+	CLASS___: Elementor\Core\Files\CSS\Base->enqueueFILE: C:\wamp64\www\migration\wp-content\plugins\elementor\core\files\css\post.php[201]
+	CLASS___: Elementor\Core\Files\CSS\Post->enqueueFILE: C:\wamp64\www\migration\wp-content\plugins\elementor\core\dynamic-tags\manager.php[488]
+	CLASS___: Elementor\Core\DynamicTags\Manager->after_enqueue_post_cssFILE: C:\wamp64\www\migration\wp-includes\class-wp-hook.php[310]
+	CLASS___: WP_Hook->apply_filters        FILE: C:\wamp64\www\migration\wp-includes\class-wp-hook.php[334]
+	CLASS___: WP_Hook->do_action            FILE: C:\wamp64\www\migration\wp-includes\plugin.php[517]
+	FUNCTION: do_action                     FILE: C:\wamp64\www\migration\wp-content\plugins\elementor\core\files\css\base.php[273]
+	CLASS___: Elementor\Core\Files\CSS\Base->enqueueFILE: C:\wamp64\www\migration\wp-content\plugins\elementor\core\files\css\post.php[201]
+	CLASS___: Elementor\Core\Files\CSS\Post->enqueueFILE: C:\wamp64\www\migration\wp-content\plugins\elementor\includes\frontend.php[676]
+	CLASS___: Elementor\Frontend->enqueue_stylesFILE: C:\wamp64\www\migration\wp-includes\class-wp-hook.php[310]
+	CLASS___: WP_Hook->apply_filters        FILE: C:\wamp64\www\migration\wp-includes\class-wp-hook.php[334]
+	CLASS___: WP_Hook->do_action            FILE: C:\wamp64\www\migration\wp-includes\plugin.php[517]
+	FUNCTION: do_action                     FILE: C:\wamp64\www\migration\wp-includes\script-loader.php[2225]
+	FUNCTION: wp_enqueue_scripts            FILE: C:\wamp64\www\migration\wp-includes\class-wp-hook.php[310]
+	CLASS___: WP_Hook->apply_filters        FILE: C:\wamp64\www\migration\wp-includes\class-wp-hook.php[334]
+	CLASS___: WP_Hook->do_action            FILE: C:\wamp64\www\migration\wp-includes\plugin.php[517]
+	FUNCTION: do_action                     FILE: C:\wamp64\www\migration\wp-includes\general-template.php[3053]
+	FUNCTION: wp_head                       FILE: C:\wamp64\www\migration\wp-content\themes\astra\header.php[31]
+	FUNCTION: require_once                  FILE: C:\wamp64\www\migration\wp-includes\template.php[785]
+	FUNCTION: load_template                 FILE: C:\wamp64\www\migration\wp-includes\template.php[720]
+	FUNCTION: locate_template               FILE: C:\wamp64\www\migration\wp-includes\general-template.php[48]
+	FUNCTION: get_header                    FILE: C:\wamp64\www\migration\wp-content\themes\astra\page.php[20]
+	FUNCTION: include                       FILE: C:\wamp64\www\migration\wp-includes\template-loader.php[106]
+	FUNCTION: require_once                  FILE: C:\wamp64\www\migration\wp-blog-header.php[19]
+	FUNCTION: require                       FILE: C:\wamp64\www\migration\index.php[17]
+	FUNCTION: require_once                  FILE: C:\wamp64\www\migration\wp-content\wp_test_script_2d2c74a-27092231.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://duplicator.com/knowledge-base/ 
+E_DEPRECATED Creation of dynamic property Elementor\Includes\Elements\Container::$logical_dimensions_inline_end is deprecated
+	FILE: C:\wamp64\www\migration\wp-content\plugins\elementor\includes\elements\container.php[43]
+	--- TRACE ---
+	CLASS___: Elementor\Includes\Elements\Container->__constructFILE: C:\wamp64\www\migration\wp-content\plugins\elementor\includes\managers\elements.php[89]
+	CLASS___: Elementor\Elements_Manager->create_element_instanceFILE: C:\wamp64\www\migration\wp-content\plugins\elementor\includes\base\element-base.php[361]
+	CLASS___: Elementor\Element_Base->add_childFILE: C:\wamp64\www\migration\wp-content\plugins\elementor\includes\base\element-base.php[1480]
+	CLASS___: Elementor\Element_Base->init_childrenFILE: C:\wamp64\www\migration\wp-content\plugins\elementor\includes\base\element-base.php[300]
+	CLASS___: Elementor\Element_Base->get_childrenFILE: C:\wamp64\www\migration\wp-content\plugins\elementor\core\dynamic-tags\dynamic-css.php[35]
+	CLASS___: Elementor\Core\DynamicTags\Dynamic_CSS->render_stylesFILE: C:\wamp64\www\migration\wp-content\plugins\elementor\core\dynamic-tags\dynamic-css.php[36]
+	CLASS___: Elementor\Core\DynamicTags\Dynamic_CSS->render_stylesFILE: C:\wamp64\www\migration\wp-content\plugins\elementor\core\dynamic-tags\dynamic-css.php[36]
+	CLASS___: Elementor\Core\DynamicTags\Dynamic_CSS->render_stylesFILE: C:\wamp64\www\migration\wp-content\plugins\elementor\core\files\css\post.php[178]
+	CLASS___: Elementor\Core\Files\CSS\Post->render_cssFILE: C:\wamp64\www\migration\wp-content\plugins\elementor\core\files\css\base.php[677]
+	CLASS___: Elementor\Core\Files\CSS\Base->parse_contentFILE: C:\wamp64\www\migration\wp-content\plugins\elementor\core\files\base.php[180]
+	CLASS___: Elementor\Core\Files\Base->update_fileFILE: C:\wamp64\www\migration\wp-content\plugins\elementor\core\files\css\base.php[130]
+	CLASS___: Elementor\Core\Files\CSS\Base->updateFILE: C:\wamp64\www\migration\wp-content\plugins\elementor\core\files\css\base.php[226]
+	CLASS___: Elementor\Core\Files\CSS\Base->enqueueFILE: C:\wamp64\www\migration\wp-content\plugins\elementor\core\files\css\post.php[201]
+	CLASS___: Elementor\Core\Files\CSS\Post->enqueueFILE: C:\wamp64\www\migration\wp-content\plugins\elementor\core\dynamic-tags\manager.php[488]
+	CLASS___: Elementor\Core\DynamicTags\Manager->after_enqueue_post_cssFILE: C:\wamp64\www\migration\wp-includes\class-wp-hook.php[310]
+	CLASS___: WP_Hook->apply_filters        FILE: C:\wamp64\www\migration\wp-includes\class-wp-hook.php[334]
+	CLASS___: WP_Hook->do_action            FILE: C:\wamp64\www\migration\wp-includes\plugin.php[517]
+	FUNCTION: do_action                     FILE: C:\wamp64\www\migration\wp-content\plugins\elementor\core\files\css\base.php[273]
+	CLASS___: Elementor\Core\Files\CSS\Base->enqueueFILE: C:\wamp64\www\migration\wp-content\plugins\elementor\core\files\css\post.php[201]
+	CLASS___: Elementor\Core\Files\CSS\Post->enqueueFILE: C:\wamp64\www\migration\wp-content\plugins\elementor\includes\frontend.php[676]
+	CLASS___: Elementor\Frontend->enqueue_stylesFILE: C:\wamp64\www\migration\wp-includes\class-wp-hook.php[310]
+	CLASS___: WP_Hook->apply_filters        FILE: C:\wamp64\www\migration\wp-includes\class-wp-hook.php[334]
+	CLASS___: WP_Hook->do_action            FILE: C:\wamp64\www\migration\wp-includes\plugin.php[517]
+	FUNCTION: do_action                     FILE: C:\wamp64\www\migration\wp-includes\script-loader.php[2225]
+	FUNCTION: wp_enqueue_scripts            FILE: C:\wamp64\www\migration\wp-includes\class-wp-hook.php[310]
+	CLASS___: WP_Hook->apply_filters        FILE: C:\wamp64\www\migration\wp-includes\class-wp-hook.php[334]
+	CLASS___: WP_Hook->do_action            FILE: C:\wamp64\www\migration\wp-includes\plugin.php[517]
+	FUNCTION: do_action                     FILE: C:\wamp64\www\migration\wp-includes\general-template.php[3053]
+	FUNCTION: wp_head                       FILE: C:\wamp64\www\migration\wp-content\themes\astra\header.php[31]
+	FUNCTION: require_once                  FILE: C:\wamp64\www\migration\wp-includes\template.php[785]
+	FUNCTION: load_template                 FILE: C:\wamp64\www\migration\wp-includes\template.php[720]
+	FUNCTION: locate_template               FILE: C:\wamp64\www\migration\wp-includes\general-template.php[48]
+	FUNCTION: get_header                    FILE: C:\wamp64\www\migration\wp-content\themes\astra\page.php[20]
+	FUNCTION: include                       FILE: C:\wamp64\www\migration\wp-includes\template-loader.php[106]
+	FUNCTION: require_once                  FILE: C:\wamp64\www\migration\wp-blog-header.php[19]
+	FUNCTION: require                       FILE: C:\wamp64\www\migration\index.php[17]
+	FUNCTION: require_once                  FILE: C:\wamp64\www\migration\wp-content\wp_test_script_2d2c74a-27092231.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://duplicator.com/knowledge-base/ 
+E_DEPRECATED Creation of dynamic property Elementor\Includes\Elements\Container::$logical_dimensions_inline_start is deprecated
+	FILE: C:\wamp64\www\migration\wp-content\plugins\elementor\includes\elements\container.php[42]
+	--- TRACE ---
+	CLASS___: Elementor\Includes\Elements\Container->__constructFILE: C:\wamp64\www\migration\wp-content\plugins\elementor\includes\managers\elements.php[89]
+	CLASS___: Elementor\Elements_Manager->create_element_instanceFILE: C:\wamp64\www\migration\wp-content\plugins\elementor\includes\base\element-base.php[361]
+	CLASS___: Elementor\Element_Base->add_childFILE: C:\wamp64\www\migration\wp-content\plugins\elementor\includes\base\element-base.php[1480]
+	CLASS___: Elementor\Element_Base->init_childrenFILE: C:\wamp64\www\migration\wp-content\plugins\elementor\includes\base\element-base.php[300]
+	CLASS___: Elementor\Element_Base->get_childrenFILE: C:\wamp64\www\migration\wp-content\plugins\elementor\core\dynamic-tags\dynamic-css.php[35]
+	CLASS___: Elementor\Core\DynamicTags\Dynamic_CSS->render_stylesFILE: C:\wamp64\www\migration\wp-content\plugins\elementor\core\dynamic-tags\dynamic-css.php[36]
+	CLASS___: Elementor\Core\DynamicTags\Dynamic_CSS->render_stylesFILE: C:\wamp64\www\migration\wp-content\plugins\elementor\core\dynamic-tags\dynamic-css.php[36]
+	CLASS___: Elementor\Core\DynamicTags\Dynamic_CSS->render_stylesFILE: C:\wamp64\www\migration\wp-content\plugins\elementor\core\files\css\post.php[178]
+	CLASS___: Elementor\Core\Files\CSS\Post->render_cssFILE: C:\wamp64\www\migration\wp-content\plugins\elementor\core\files\css\base.php[677]
+	CLASS___: Elementor\Core\Files\CSS\Base->parse_contentFILE: C:\wamp64\www\migration\wp-content\plugins\elementor\core\files\base.php[180]
+	CLASS___: Elementor\Core\Files\Base->update_fileFILE: C:\wamp64\www\migration\wp-content\plugins\elementor\core\files\css\base.php[130]
+	CLASS___: Elementor\Core\Files\CSS\Base->updateFILE: C:\wamp64\www\migration\wp-content\plugins\elementor\core\files\css\base.php[226]
+	CLASS___: Elementor\Core\Files\CSS\Base->enqueueFILE: C:\wamp64\www\migration\wp-content\plugins\elementor\core\files\css\post.php[201]
+	CLASS___: Elementor\Core\Files\CSS\Post->enqueueFILE: C:\wamp64\www\migration\wp-content\plugins\elementor\core\dynamic-tags\manager.php[488]
+	CLASS___: Elementor\Core\DynamicTags\Manager->after_enqueue_post_cssFILE: C:\wamp64\www\migration\wp-includes\class-wp-hook.php[310]
+	CLASS___: WP_Hook->apply_filters        FILE: C:\wamp64\www\migration\wp-includes\class-wp-hook.php[334]
+	CLASS___: WP_Hook->do_action            FILE: C:\wamp64\www\migration\wp-includes\plugin.php[517]
+	FUNCTION: do_action                     FILE: C:\wamp64\www\migration\wp-content\plugins\elementor\core\files\css\base.php[273]
+	CLASS___: Elementor\Core\Files\CSS\Base->enqueueFILE: C:\wamp64\www\migration\wp-content\plugins\elementor\core\files\css\post.php[201]
+	CLASS___: Elementor\Core\Files\CSS\Post->enqueueFILE: C:\wamp64\www\migration\wp-content\plugins\elementor\includes\frontend.php[676]
+	CLASS___: Elementor\Frontend->enqueue_stylesFILE: C:\wamp64\www\migration\wp-includes\class-wp-hook.php[310]
+	CLASS___: WP_Hook->apply_filters        FILE: C:\wamp64\www\migration\wp-includes\class-wp-hook.php[334]
+	CLASS___: WP_Hook->do_action            FILE: C:\wamp64\www\migration\wp-includes\plugin.php[517]
+	FUNCTION: do_action                     FILE: C:\wamp64\www\migration\wp-includes\script-loader.php[2225]
+	FUNCTION: wp_enqueue_scripts            FILE: C:\wamp64\www\migration\wp-includes\class-wp-hook.php[310]
+	CLASS___: WP_Hook->apply_filters        FILE: C:\wamp64\www\migration\wp-includes\class-wp-hook.php[334]
+	CLASS___: WP_Hook->do_action            FILE: C:\wamp64\www\migration\wp-includes\plugin.php[517]
+	FUNCTION: do_action                     FILE: C:\wamp64\www\migration\wp-includes\general-template.php[3053]
+	FUNCTION: wp_head                       FILE: C:\wamp64\www\migration\wp-content\themes\astra\header.php[31]
+	FUNCTION: require_once                  FILE: C:\wamp64\www\migration\wp-includes\template.php[785]
+	FUNCTION: load_template                 FILE: C:\wamp64\www\migration\wp-includes\template.php[720]
+	FUNCTION: locate_template               FILE: C:\wamp64\www\migration\wp-includes\general-template.php[48]
+	FUNCTION: get_header                    FILE: C:\wamp64\www\migration\wp-content\themes\astra\page.php[20]
+	FUNCTION: include                       FILE: C:\wamp64\www\migration\wp-includes\template-loader.php[106]
+	FUNCTION: require_once                  FILE: C:\wamp64\www\migration\wp-blog-header.php[19]
+	FUNCTION: require                       FILE: C:\wamp64\www\migration\index.php[17]
+	FUNCTION: require_once                  FILE: C:\wamp64\www\migration\wp-content\wp_test_script_2d2c74a-27092231.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://duplicator.com/knowledge-base/ 
+E_DEPRECATED Creation of dynamic property Elementor\Includes\Elements\Container::$logical_dimensions_inline_end is deprecated
+	FILE: C:\wamp64\www\migration\wp-content\plugins\elementor\includes\elements\container.php[43]
+	--- TRACE ---
+	CLASS___: Elementor\Includes\Elements\Container->__constructFILE: C:\wamp64\www\migration\wp-content\plugins\elementor\includes\managers\elements.php[89]
+	CLASS___: Elementor\Elements_Manager->create_element_instanceFILE: C:\wamp64\www\migration\wp-content\plugins\elementor\includes\base\element-base.php[361]
+	CLASS___: Elementor\Element_Base->add_childFILE: C:\wamp64\www\migration\wp-content\plugins\elementor\includes\base\element-base.php[1480]
+	CLASS___: Elementor\Element_Base->init_childrenFILE: C:\wamp64\www\migration\wp-content\plugins\elementor\includes\base\element-base.php[300]
+	CLASS___: Elementor\Element_Base->get_childrenFILE: C:\wamp64\www\migration\wp-content\plugins\elementor\core\dynamic-tags\dynamic-css.php[35]
+	CLASS___: Elementor\Core\DynamicTags\Dynamic_CSS->render_stylesFILE: C:\wamp64\www\migration\wp-content\plugins\elementor\core\dynamic-tags\dynamic-css.php[36]
+	CLASS___: Elementor\Core\DynamicTags\Dynamic_CSS->render_stylesFILE: C:\wamp64\www\migration\wp-content\plugins\elementor\core\dynamic-tags\dynamic-css.php[36]
+	CLASS___: Elementor\Core\DynamicTags\Dynamic_CSS->render_stylesFILE: C:\wamp64\www\migration\wp-content\plugins\elementor\core\files\css\post.php[178]
+	CLASS___: Elementor\Core\Files\CSS\Post->render_cssFILE: C:\wamp64\www\migration\wp-content\plugins\elementor\core\files\css\base.php[677]
+	CLASS___: Elementor\Core\Files\CSS\Base->parse_contentFILE: C:\wamp64\www\migration\wp-content\plugins\elementor\core\files\base.php[180]
+	CLASS___: Elementor\Core\Files\Base->update_fileFILE: C:\wamp64\www\migration\wp-content\plugins\elementor\core\files\css\base.php[130]
+	CLASS___: Elementor\Core\Files\CSS\Base->updateFILE: C:\wamp64\www\migration\wp-content\plugins\elementor\core\files\css\base.php[226]
+	CLASS___: Elementor\Core\Files\CSS\Base->enqueueFILE: C:\wamp64\www\migration\wp-content\plugins\elementor\core\files\css\post.php[201]
+	CLASS___: Elementor\Core\Files\CSS\Post->enqueueFILE: C:\wamp64\www\migration\wp-content\plugins\elementor\core\dynamic-tags\manager.php[488]
+	CLASS___: Elementor\Core\DynamicTags\Manager->after_enqueue_post_cssFILE: C:\wamp64\www\migration\wp-includes\class-wp-hook.php[310]
+	CLASS___: WP_Hook->apply_filters        FILE: C:\wamp64\www\migration\wp-includes\class-wp-hook.php[334]
+	CLASS___: WP_Hook->do_action            FILE: C:\wamp64\www\migration\wp-includes\plugin.php[517]
+	FUNCTION: do_action                     FILE: C:\wamp64\www\migration\wp-content\plugins\elementor\core\files\css\base.php[273]
+	CLASS___: Elementor\Core\Files\CSS\Base->enqueueFILE: C:\wamp64\www\migration\wp-content\plugins\elementor\core\files\css\post.php[201]
+	CLASS___: Elementor\Core\Files\CSS\Post->enqueueFILE: C:\wamp64\www\migration\wp-content\plugins\elementor\includes\frontend.php[676]
+	CLASS___: Elementor\Frontend->enqueue_stylesFILE: C:\wamp64\www\migration\wp-includes\class-wp-hook.php[310]
+	CLASS___: WP_Hook->apply_filters        FILE: C:\wamp64\www\migration\wp-includes\class-wp-hook.php[334]
+	CLASS___: WP_Hook->do_action            FILE: C:\wamp64\www\migration\wp-includes\plugin.php[517]
+	FUNCTION: do_action                     FILE: C:\wamp64\www\migration\wp-includes\script-loader.php[2225]
+	FUNCTION: wp_enqueue_scripts            FILE: C:\wamp64\www\migration\wp-includes\class-wp-hook.php[310]
+	CLASS___: WP_Hook->apply_filters        FILE: C:\wamp64\www\migration\wp-includes\class-wp-hook.php[334]
+	CLASS___: WP_Hook->do_action            FILE: C:\wamp64\www\migration\wp-includes\plugin.php[517]
+	FUNCTION: do_action                     FILE: C:\wamp64\www\migration\wp-includes\general-template.php[3053]
+	FUNCTION: wp_head                       FILE: C:\wamp64\www\migration\wp-content\themes\astra\header.php[31]
+	FUNCTION: require_once                  FILE: C:\wamp64\www\migration\wp-includes\template.php[785]
+	FUNCTION: load_template                 FILE: C:\wamp64\www\migration\wp-includes\template.php[720]
+	FUNCTION: locate_template               FILE: C:\wamp64\www\migration\wp-includes\general-template.php[48]
+	FUNCTION: get_header                    FILE: C:\wamp64\www\migration\wp-content\themes\astra\page.php[20]
+	FUNCTION: include                       FILE: C:\wamp64\www\migration\wp-includes\template-loader.php[106]
+	FUNCTION: require_once                  FILE: C:\wamp64\www\migration\wp-blog-header.php[19]
+	FUNCTION: require                       FILE: C:\wamp64\www\migration\index.php[17]
+	FUNCTION: require_once                  FILE: C:\wamp64\www\migration\wp-content\wp_test_script_2d2c74a-27092231.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://duplicator.com/knowledge-base/ 
+E_DEPRECATED Creation of dynamic property Elementor\Includes\Elements\Container::$logical_dimensions_inline_start is deprecated
+	FILE: C:\wamp64\www\migration\wp-content\plugins\elementor\includes\elements\container.php[42]
+	--- TRACE ---
+	CLASS___: Elementor\Includes\Elements\Container->__constructFILE: C:\wamp64\www\migration\wp-content\plugins\elementor\includes\managers\elements.php[89]
+	CLASS___: Elementor\Elements_Manager->create_element_instanceFILE: C:\wamp64\www\migration\wp-content\plugins\elementor\includes\base\element-base.php[361]
+	CLASS___: Elementor\Element_Base->add_childFILE: C:\wamp64\www\migration\wp-content\plugins\elementor\includes\base\element-base.php[1480]
+	CLASS___: Elementor\Element_Base->init_childrenFILE: C:\wamp64\www\migration\wp-content\plugins\elementor\includes\base\element-base.php[300]
+	CLASS___: Elementor\Element_Base->get_childrenFILE: C:\wamp64\www\migration\wp-content\plugins\elementor\core\dynamic-tags\dynamic-css.php[35]
+	CLASS___: Elementor\Core\DynamicTags\Dynamic_CSS->render_stylesFILE: C====================================
+LOG-TIME[C:\wamp64\www\migration\dup-installer\ctrls\ctrl.base.php:227][DELTA:   0.03276]  MESSAGE:END RENDER PAGE

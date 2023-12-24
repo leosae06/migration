@@ -1,0 +1,73 @@
+{
+    "report": {
+        "pass": 0,
+        "chunk": 1,
+        "chunkPos": {
+            "l0": "final_report",
+            "l1": null,
+            "l2": null
+        },
+        "progress_perc": 100,
+        "scan_tables": 21,
+        "scan_rows": 6336,
+        "scan_cells": 40880,
+        "updt_tables": 4,
+        "updt_rows": 1244,
+        "updt_cells": 1679,
+        "errsql": [],
+        "errser": [],
+        "errkey": [],
+        "errsql_sum": 0,
+        "errser_sum": 0,
+        "errkey_sum": 0,
+        "profile_start": 1703409225.951987,
+        "profile_end": 1703409228.917205,
+        "time": "2.9652 sec.",
+        "err_all": 0,
+        "warn_all": 0,
+        "warnlist": []
+    },
+    "cTableParams": null,
+    "replaceData": [
+        {
+            "id": 0,
+            "prority": 12,
+            "scope": [
+                "___!GLOBAL!___!SCOPE!___"
+            ],
+            "type": "path",
+            "search": "\/var\/www\/html\/wordpress",
+            "replace": "C:\/wamp64\/www\/migration"
+        },
+        {
+            "id": 1,
+            "prority": 12,
+            "scope": [
+                "___!GLOBAL!___!SCOPE!___"
+            ],
+            "type": "path",
+            "search": "\/var\/www\/html\/wordpress",
+            "replace": "C:\/wamp64\/www\/migration"
+        },
+        {
+            "id": 2,
+            "prority": 12,
+            "scope": [
+                "___!GLOBAL!___!SCOPE!___"
+            ],
+            "type": "urlnd",
+            "search": "http:\/\/ec2-35-180-86-211.eu-west-3.compute.amazonaws.com\/wordpress",
+            "replace": "http:\/\/localhost\/migration"
+        },
+        {
+            "id": 3,
+            "prority": 12,
+            "scope": [
+                "___!GLOBAL!___!SCOPE!___"
+            ],
+            "type": "urlnd",
+            "search": "http:\/\/ec2-35-180-86-211.eu-west-3.compute.amazonaws.com\/wordpress",
+            "replace": "http:\/\/localhost\/migration"
+        }
+    ]
+}

@@ -1,0 +1,31 @@
+[Dec 24 09:13:17] 
+[Dec 24 09:13:17] [PHP ERR][ISSUE] MSG:Creation of dynamic property DUPX_Bootstrap::$extractionTmpFolder is deprecated [CODE:8192|FILE:C:\wamp64\www\migration\installer.php|LINE:99]
+[Dec 24 09:13:17] ==DUPLICATOR INSTALLER BOOTSTRAP v1.5.6==
+[Dec 24 09:13:17] ----------------------------------------------------
+[Dec 24 09:13:17] Installer bootstrap start
+[Dec 24 09:13:17] Ready to extract the installer
+[Dec 24 09:13:17] Checking permission of destination folder
+[Dec 24 09:13:17] Expand directory from offset 102142185
+[Dec 24 09:13:17] No need to create dup-installer/.htaccess or dup-installer/.user.ini
+[Dec 24 09:13:17] SAPI: apache2handler
+[Dec 24 09:13:17] [PHP ERR][ISSUE] MSG:Creation of dynamic property DUPX_Bootstrap::$archive is deprecated [CODE:8192|FILE:C:\wamp64\www\migration\installer.php|LINE:529]
+[Dec 24 09:13:17] [PHP ERR][ISSUE] MSG:Creation of dynamic property DUPX_Bootstrap::$bootloader is deprecated [CODE:8192|FILE:C:\wamp64\www\migration\installer.php|LINE:530]
+[Dec 24 09:13:17] Set permissions of dup-installer<br/>
+[Dec 24 09:13:17] Set permissions of dup-installer/addons<br/>
+[Dec 24 09:13:17] Set permissions of dup-installer/assets<br/>
+[Dec 24 09:13:17] Set permissions of dup-installer/classes<br/>
+[Dec 24 09:13:17] Set permissions of dup-installer/ctrls<br/>
+[Dec 24 09:13:17] Set permissions of dup-installer/favicon<br/>
+[Dec 24 09:13:17] Set permissions of dup-installer/libs<br/>
+[Dec 24 09:13:17] Set permissions of dup-installer/original_files_[HASH]<br/>
+[Dec 24 09:13:17] Set permissions of dup-installer/src<br/>
+[Dec 24 09:13:17] Set permissions of dup-installer/templates<br/>
+[Dec 24 09:13:17] Set permissions of dup-installer/vendor<br/>
+[Dec 24 09:13:17] Set permissions of dup-installer/dup-archive__[HASH].txt<br/>
+[Dec 24 09:13:17] Set permissions of dup-installer/dup-scan__[HASH].json<br/>
+[Dec 24 09:13:17] Set permissions of dup-installer/dup-scanned-dirs__[HASH].txt<br/>
+[Dec 24 09:13:17] Set permissions of dup-installer/dup-scanned-files__[HASH].txt<br/>
+[Dec 24 09:13:17] Set permissions of dup-installer/index.php<br/>
+[Dec 24 09:13:17] Set permissions of dup-installer/main.installer.php<br/>
+[Dec 24 09:13:17] DONE: No detected errors so redirecting to the main installer. Main Installer URI = http://localhost/migration/dup-installer/main.installer.php
+[Dec 24 09:13:17] [PHP ERR][ISSUE] MSG:Creation of dynamic property DUPX_Bootstrap::$extractionTmpFolder is deprecated [CODE:8192|FILE:C:\wamp64\www\migration\installer.php|LINE:99]
